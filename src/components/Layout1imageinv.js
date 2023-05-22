@@ -4,7 +4,7 @@ const Layout1imageinv =({props})=>{
             
             <div className="col-start-1 ml-[30px] "> <img src={props.image1.url} alt={props.image1.alt}/></div>
             <div className="col-start-2 w bg-[#DEE4E4] flex center justify-start">
-                <div className="flex flex-col ">
+                <div className="flex flex-col relative">
                     {props.col1}
                 </div>
             </div>
