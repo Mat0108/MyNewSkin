@@ -1,6 +1,11 @@
     // import Routine from '../images/Routine.png'
     // import skincare from '../images/skincare.png'
-import logo from '../images/logo.png'
+import logo from '../images/logo.png';
+import React from 'react';
+//import { Badge } from "@material-ui/core";
+//import { Search, ShoppingCartOutlined } from "@material-ui/icons";
+// import { mobile } from "../responsive";
+
 const Firstlayout = () =>{
     return (
     <>
