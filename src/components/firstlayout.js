@@ -9,7 +9,10 @@ const Firstlayout = () =>{
         <div className='col-start-1 ml-[35px] mt-[px] flex items-start '><img src={logo}/></div>
         <div className='col-start-4 col-span-2 flex items-start'>
             <div className='flex flex-row text-lg space-x-3 ml-[80px] mt-[10px]'>
-                <div>Diagnotics</div>
+                <div>My Diagnotic</div>
+                <div>Notre Expertise</div>
+                <div>Conseils</div>
+                <div>My Community</div>
                 <div>Soins</div>
                 <div>Produits</div>
                 <div>Panier</div>
