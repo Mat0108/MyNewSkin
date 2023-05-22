@@ -2,7 +2,7 @@ import logo from "../images/logo.png"
 import tiktok from "../images/tiktok.png"
 import instagram from "../images/instagram.png"
 import pinterest from "../images/pinterest.png"
-const Lastlayout = ()=>{
+const Footer = ()=>{
     return (
     <footer className="p-4 pb-10 bg-white_coffee grid grid-cols-6">
         <div className="col-start-1 col-span-2 flex flex-col center ">
@@ -52,4 +52,4 @@ const Lastlayout = ()=>{
     </footer>
     )
 }
-export default Lastlayout;
+export default Footer;
