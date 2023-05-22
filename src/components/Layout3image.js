@@ -6,8 +6,8 @@ const Layout3image =({props})=>{
     
     return (
         <div className="relative w-full h-fit grid grid-row-2 mt-[10px] mt-[50px]">
-            {props.titre}
-            <div className="mx-auto w-[90%] row-start-2 grid grid-cols-3">
+            <div className="w-full">{props.titre}</div>
+            <div className="mx-auto w-fit row-start-2 grid grid-cols-3 gap-20">
                 <div className="col-start-1 w bg-[#DEE4E4] flex justify-start">
                     <div className="flex flex-col ">
                         <div className="ml-[30px] mt-[60px]"> <img src={props.image1.url} alt={props.image1.alt}  /></div>        
