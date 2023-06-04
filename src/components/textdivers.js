@@ -1,4 +1,6 @@
-import buy from "../images/buy.png"
+import buy from "../images/buy.png";
+import visage5 from "../images/visage5.png"
+import skincare from "../images/SkinCare1.png"
 const switchtext=(params)=>{
   switch(params){
     case "presentation":
@@ -14,7 +16,21 @@ const switchtext=(params)=>{
     case "produitcol2":
       return produitcol2(); 
     case "produitcol3":
-      return produitcol3()
+      return produitcol3();
+    case "quisommesnous":
+      return quisommesnous();
+    case "quisommesnous2":
+      return quisommesnous2();
+    case "quisommesnous3":
+      return quisommesnous3();
+    case "quisommesnous4":
+      return quisommesnous4();
+    case "Carousel1":
+      return Carousel1();
+    case "Carousel2":
+      return Carousel2();
+    default:
+      break;
   }
 }
 const presentation = ()=>{
@@ -90,6 +106,56 @@ const produitcol3 = () =>{
       <div className="w-[40px] ml-[10px] my-auto"> <img src={buy}  /></div>        
       <div className="ml-[10px] text-[20px] w-fit px-4 py-2 bg-[#83C5BE] rounded-3xl font-av-bold text-[#264C4D] text-left"><p>Je découvre</p></div>    
   </div>
+  </>)
+}
+
+
+const quisommesnous = () =>{
+  return (<>
+    <p className="text-[50px] font-av-bold text-blue text-center w-[700px]">Notre histoire</p>
+      
+  </>)
+}
+const quisommesnous2 = () =>{
+  return (<>
+    <p className="text-[50px] font-av-bold text-blue text-center w-full">NOTRE CONCEPT & NOTRE TEAM</p>
+      
+  </>)
+}
+const quisommesnous3 = () =>{
+  return (<>
+    <p className="mt-[32px] mb-[32px] text-[24px] font-av-bold text-blue text-center w-full">CONCEPT</p>
+      
+  </>)
+}
+const quisommesnous4 = () =>{
+  return (<>
+    <p className="mt-[32px] mb-[32px] text-[24px] font-av-bold text-blue text-center w-full">TEAM</p>
+      
+  </>)
+}
+
+const Carousel1 = () =>{
+  return (<>
+  <div className="mt-[20px]"> <img src={visage5} alt="visage5" /></div>  
+  <p className="mt-[20px] text-[16px] font-av-bold text-blue">4 types de peau, 4 types de soins </p>    
+  <p className="text-[16px]">Quel nettoyant choisir ? quel serum vous correspond ? </p>
+  <p className="text-[16px]">Comprenez et accepter la nature de votre peau grâce à nos conseils ciblés pour vous.</p>  
+  </>)
+}
+
+const Carousel2 = () =>{
+  return (<>
+    <div className="w-[686px] h-[300px] flex flex-row">
+        <div className="w-[343px] h-full bg-white rounded-l-2xl">
+          <p className="text-[30px] mt-[20px]">Marie du pont</p>
+        </div>
+        <div className="w-[343px] h-[300px]">
+          <img src={skincare} alt="skincare"/>
+        </div>
+
+
+    </div>
   </>)
 }
 export {switchtext}

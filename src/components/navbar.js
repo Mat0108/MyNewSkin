@@ -12,7 +12,7 @@ const Navbar = () =>{
     <>
     
     <div className='w-full h-[50px] border-b-2 border-white grid grid-cols-5 bg-[#DEE4E4]'>
-        <div className='col-start-1 ml-[35px] mt-[px] flex items-start '><img src={logo}/></div>
+        <div className='col-start-1 ml-[35px] mt-[px] flex items-start ' ><a href="/"><img src={logo} alt="logo"/></a></div>
         <div className='col-start-3 col-span-3 flex items-end'>
             <div className='flex flex-row text-lg space-x-3 ml-[80px] mt-[10px]'>
                 <div>Diagnotic</div>
