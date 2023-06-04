@@ -4,11 +4,11 @@ import Layout2col from "../components/Layout2col";
 
 import {switchtext} from './../components/textdivers';
 
-import qsn from "./../images/quisommenous.png"
-import v9 from "./../images/visage9.png"
-import v10 from "./../images/visage10.png"
-import v11 from "./../images/visage11.png"
-import v12 from "./../images/visage12.png"
+import qsn from "./../images/quisommenous.png";
+import v9 from "./../images/visage9.png";
+import v10 from "./../images/visage10.png";
+import v11 from "./../images/visage11.png";
+import v12 from "./../images/visage12.png";
 import Carousel from "../components/Carousel";
 
 const QuiSommesNous = () =>{

@@ -15,8 +15,9 @@ const Navbar = () =>{
         <div className='col-start-1 ml-[35px] mt-[px] flex items-start ' ><a href="/"><img src={logo} alt="logo"/></a></div>
         <div className='col-start-3 col-span-3 flex items-end'>
             <div className='flex flex-row text-lg space-x-3 ml-[80px] mt-[10px]'>
+                <a href="/QuiSommesNous">Qui Sommes-Nous</a>
                 <div>Diagnotic</div>
-                <div>Expertise</div>
+                <a href="/Expertise">Expertise</a>
                 <div>Conseils</div>
                 <div>Community</div>
                 <div>Soins</div>

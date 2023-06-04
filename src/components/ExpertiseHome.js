@@ -3,7 +3,7 @@ import partenaire1 from "../images/partenaire1.png"
 import partenaire2 from "../images/partenaire2.png"
 import partenaire3 from "../images/partenaire3.png"
 
-const Expertise =()=>{
+const ExpertiseHome =()=>{
     return (<>
         <div className="relative w-full h-fit mt-[10px] grid grid-cols-4 bg-blue">
             <div className="col-start-1">
@@ -32,4 +32,4 @@ const Expertise =()=>{
         </>
     )
 }
-export default Expertise
+export default ExpertiseHome

@@ -4,7 +4,7 @@ import Layout1image from './../components/Layout1image';
 import Layout2image from './../components/Layout2image';
 import Layout3image from './../components/Layout3image';
 import Conseil from '../components/Carousel';
-import Expertise from './../components/expertise';
+import ExpertiseHome from '../components/ExpertiseHome';
 import Newsletter from './../components/newsletter';
 
 import {switchtext} from './../components/textdivers';
@@ -24,7 +24,7 @@ const Home = ()=>{
         <Layout2image props={{col1:switchtext("apropos"),col2:switchtext("apropos2"),image1:{url:visage7,alt:"visage7"},image2:{url:visage8,alt:"visage8"}}} />
         <Layout3image props={{titre:switchtext("produittitre"),col1:switchtext("produitcol1"),image1:{url:produit1,alt:"produit1"},col2:switchtext("produitcol2"),image2:{url:produit2,alt:"produit2"},col3:switchtext("produitcol3"),image3:{url:produit3,alt:"produit3"}}}/>
         <Carousel props={{titre:"Nos conseils...",col:switchtext("Carousel1")}} />
-        <Expertise />
+        <ExpertiseHome />
        </>)
 }
 

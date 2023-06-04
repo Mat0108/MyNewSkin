@@ -29,6 +29,10 @@ const switchtext=(params)=>{
       return Carousel1();
     case "Carousel2":
       return Carousel2();
+    case "NotreHistoire":
+      return NotreHistoire();
+    case "EcoleDelphine":
+      return EcoleDelphine();
     default:
       break;
   }
@@ -153,9 +157,20 @@ const Carousel2 = () =>{
         <div className="w-[343px] h-[300px]">
           <img src={skincare} alt="skincare"/>
         </div>
-
-
     </div>
   </>)
+}
+const NotreHistoire = ()=>{
+  return <div>
+      <p className="text-[50px] font-av-bold text-center w-[700px]">Notre histoire</p>
+  </div>
+}
+const EcoleDelphine = ()=>{
+  return <div>
+      <p className="text-[40px] font-av-bold text-center w-[700px]">École Delphine Langlois</p>
+      <p className="text-[40px] font-av-bold text-center w-[700px]">Facialiste Paris</p>
+      <div className="flex center"><div className="mt-[120px] text-[30px] w-fit px-8 py-4 bg-[#83C5BE] rounded-full font-av-bold text-blue text-left"><p>en savoir plus</p></div>
+      </div>
+  </div>
 }
 export {switchtext}
