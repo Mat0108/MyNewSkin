@@ -1,7 +1,3 @@
-import produit1 from "../images/produit1.png"
-import produit2 from "../images/produit2.png"
-import produit3 from "../images/produit3.png"
-import buy from "../images/buy.png"
 const Layout3image =({props})=>{
     
     return (

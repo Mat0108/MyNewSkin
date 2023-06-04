@@ -1,8 +1,8 @@
 
 import ExpertiseHome from "../components/ExpertiseHome";
-import Layout1image from "../components/Layout1image";
-import Layout1imageinv from "../components/Layout1imageinv";
-import LayoutFullImage from "../components/LayoutFullImage";
+import Layout1image from "../components/Layout/Layout1image";
+import Layout1imageinv from "../components/Layout/Layout1imageinv";
+import LayoutFullImage from "../components/Layout/LayoutFullImage";
 import { switchtext } from "../components/textdivers";
 import v13 from "./../images/visage13.png";
 import v14 from "./../images/visage14.png";

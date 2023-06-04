@@ -1,9 +1,9 @@
 
-import LayoutFullImage from './../components/LayoutFullImage';
-import Layout1image from './../components/Layout1image';
-import Layout2image from './../components/Layout2image';
-import Layout3image from './../components/Layout3image';
-import Conseil from '../components/Carousel';
+import LayoutFullImage from '../components/Layout/LayoutFullImage';
+import Layout1image from '../components/Layout/Layout1image';
+import Layout2image from '../components/Layout/Layout2image';
+import Layout3image from '../components/Layout/Layout3image';
+import Conseil from '../components/Layout/Carousel';
 import ExpertiseHome from '../components/ExpertiseHome';
 import Newsletter from './../components/newsletter';
 
@@ -16,7 +16,7 @@ import visage8 from "./../images/visage8.png";
 import produit1 from "./../images/produit1.png";
 import produit2 from "./../images/produit2.png";
 import produit3 from "./../images/produit3.png";
-import Carousel from '../components/Carousel';
+import Carousel from '../components/Layout/Carousel';
 const Home = ()=>{
     return (<>
         <LayoutFullImage props={{titre:"DECOUVREZ VOTRE PEAU",button:"FAIRE MON DIAGNOSTIC ",text1:"En complétant ce formulaire, vous autorisez xx à utiliser vos données personnelles, à vous adresser des offres et communications  par Po. email ou par SMS En savoir plus ",image1:{url:fullvisage,alt:"fullvisage"}}}/>

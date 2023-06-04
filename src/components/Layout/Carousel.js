@@ -1,5 +1,5 @@
 
-import point from "../images/point.png"
+import point from "../../images/point.png"
 const Carousel =({props})=>{
     return (<>
         <div className="relative w-full h-0.5 mt-[30px] bg-[#10264C4D]"></div>

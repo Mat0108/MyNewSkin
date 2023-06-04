@@ -11,6 +11,7 @@ import QuiSommesNous from './pages/QuiSommesNous'
 import Navbar from './components/navbar';
 import Footer from './components/footer';
 import Newsletter from './components/newsletter';
+import Commu from './pages/Commu';
 function App() {
   // const text1 = "Son corps idéal : elle voudrait prendre soin de sa peau facilement, et trouver une rutine skin care qui correspond à son type de peau sans passer des mois à contacter un spécialiste.";
   
@@ -21,7 +22,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home/>}></Route>
           <Route path="/Expertise" element={<Expertise/>}></Route> 
-          <Route path="/QuiSommesNous" element={<QuiSommesNous />}></Route>
+          <Route path="/APropos" element={<QuiSommesNous />}></Route>
+          <Route path="/Community" element={<Commu/>}></Route>
         </Routes>
         <Newsletter />
         <Footer />

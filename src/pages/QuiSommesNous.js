@@ -1,6 +1,6 @@
-import Layout1imageinv from "../components/Layout1imageinv"
-import LayoutFullImage from "../components/LayoutFullImage"
-import Layout2col from "../components/Layout2col";
+import Layout1imageinv from "../components/Layout/Layout1imageinv"
+import LayoutFullImage from "../components/Layout/LayoutFullImage"
+import Layout2col from "../components/Layout/Layout2col";
 
 import {switchtext} from './../components/textdivers';
 
@@ -9,7 +9,7 @@ import v9 from "./../images/visage9.png";
 import v10 from "./../images/visage10.png";
 import v11 from "./../images/visage11.png";
 import v12 from "./../images/visage12.png";
-import Carousel from "../components/Carousel";
+import Carousel from "../components/Layout/Carousel";
 
 const QuiSommesNous = () =>{
     return (<>
