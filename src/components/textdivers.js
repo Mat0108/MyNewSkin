@@ -33,6 +33,8 @@ const switchtext=(params)=>{
       return NotreHistoire();
     case "EcoleDelphine":
       return EcoleDelphine();
+    case "Commu":
+      return Commu();
     default:
       break;
   }
@@ -115,10 +117,26 @@ const produitcol3 = () =>{
 
 
 const quisommesnous = () =>{
-  return (<>
+  return (<div className="h-[900px]">
     <p className="text-[50px] font-av-bold text-blue text-center w-[700px]">Notre histoire</p>
+    <div className="w-[80%] h-full">
+    <p className="mt-[20px]">Bienvenue sur notre site de conseil skincare et de suivi ! </p>
+    <p className="mt-[20px]">Nous sommes ravis de vous accompagner dans votre parcours vers une peau saine et éclatante. Chez Po., nous croyons en l'importance d'une routine skincare adaptée à chaque peau et pour chaque individu, et nous sommes là pour vous guider à chaque étape.</p>
+
+    <p className="mt-[20px]">Notre équipe de passionnés de skincare est composée d'experts qualifiés dans le domaine. Nous avons rassemblé leurs connaissances et leur expertise pour vous fournir des conseils personnalisés et des informations de qualité sur les soins de la peau.</p>
+
+    <p className="mt-[20px]">Que vous soyez novice en matière de skincare ou que vous cherchiez à améliorer votre routine existante, nous avons tout ce dont vous avez besoin. Notre site regorge de ressources utiles, y compris des articles informatifs, des tutoriels vidéo, des guides d'achat et des recommandations de produits, des experts facialistes pouvant vous donner des conseils et assurer un suivi.</p>
+
+    <p className="mt-[20px]">Nous comprenons que chaque peau est unique, c'est pourquoi nous mettons l'accent sur le suivi et les conseils personnalisés. Vous pouvez créer un compte sur notre site pour bénéficier d'un suivi individualisé de votre routine skincare. En répondant à quelques questions simples sur votre type de peau, vos préoccupations et vos objectifs, nous pourrons vous proposer des recommandations sur mesure et ajuster votre routine au fur et à mesure.</p>
+
+    <p className="mt-[20px]">La transparence et la bienveillance sont des valeurs importantes chez Po.. Nous veillons à ce que toutes les informations que nous partageons soient basées sur des recherches scientifiques et des sources fiables. Nous collaborons avec des experts facialistes et des marques spécialistes de la peau pour vous offrir des conseils fiables et à jour.</p>
+
+    <p className="mt-[20px]">Nous espérons que notre site vous inspirera à prendre soin de votre peau et à vous sentir bien dans votre peau. N'hésitez pas à explorer nos différentes sections, à poser des questions et à interagir avec notre communauté faite pour vous. Nous sommes là pour vous accompagner dans votre voyage vers une peau épanouie et radieuse.</p>
+
+    <p className="mt-[20px]">Bienvenue dans la communauté Po. !</p>
+    </div>
       
-  </>)
+  </div>)
 }
 const quisommesnous2 = () =>{
   return (<>
@@ -171,6 +189,26 @@ const EcoleDelphine = ()=>{
       <p className="text-[40px] font-av-bold text-center w-[700px]">Facialiste Paris</p>
       <div className="flex center"><div className="mt-[120px] text-[30px] w-fit px-8 py-4 bg-[#83C5BE] rounded-full font-av-bold text-blue text-left"><p>en savoir plus</p></div>
       </div>
+  </div>
+}
+
+const Commu = ()=>{
+  return <div className="w-[70%]">
+    <p className="mt-[60px]"> Bienvenue dans la communauté Po. !</p>
+
+    <p className="mt-[20px]"> Notre communauté est un espace dédié aux passionnés de soins de la peau qui voudraient des conseils beauté et skincare, où vous pouvez partager vos expériences, poser des questions, échanger des conseils et trouver une source d'inspiration pour prendre soin de votre peau et vous acceptez vous-mêmes.</p>
+
+    <p className="mt-[20px]"> Ici, nous encourageons l'ouverture d'esprit, le respect mutuel et l'entraide. Que vous soyez un novice cherchant des conseils de base ou un expert partageant vos connaissances approfondies, vous êtes le bienvenu pour contribuer à agrandir notre communauté.</p>
+
+    <p className="mt-[30px] text-left"> Dans cette communauté, vous pourrez :</p>
+
+    <p className="mt-[20px] text-left "> <span className="font-av-bold">1. Poser des questions :</span> Vous avez une question sur un problème de peau spécifique ou sur l'utilisation d'un produit en particulier ? N'hésitez pas à poser vos questions et notre communauté se fera un plaisir de vous aider avec des réponses basées sur des expériences personnelles et des connaissances approfondies.</p>
+    <p className="mt-[20px] text-left"> <span className="font-av-bold">2. Partager vos conseils :</span> Vous avez découvert une routine de soins de la peau efficace ou un produit coup de cœur ? Partagez vos astuces et recommandations avec les autres membres de la communauté. Votre expérience peut aider quelqu'un à trouver la solution parfaite pour sa peau.</p>
+    <p className="mt-[20px] text-left"> <span className="font-av-bold">3. Raconter votre histoire :</span> Chaque peau a une histoire unique. Que vous ayez surmonté des problèmes de peau ou que vous ayez atteint un objectif spécifique, partagez votre parcours pour inspirer les autres membres de la communauté et leur montrer qu'ils ne sont pas seuls dans leur quête d'une peau saine et radieuse.</p>
+    <p className="mt-[20px] text-left"> <span className="font-av-bold">4. Participer aux discussions : </span>Nos fils de discussion sont l'endroit idéal pour engager des conversations intéressantes sur les dernières tendances en matière de soins de la peau, partager des idées créatives et discuter des défis auxquels nous sommes confrontés dans notre quête d'une peau magnifique. </p>
+    <p className="mt-[20px] text-left"> <span className="font-av-bold">5. Découvrir de nouvelles ressources :</span>En plus des discussions de la communauté, nous vous proposons des articles informatifs, des tutoriels et des revues de produits pour vous tenir au courant des dernières tendances et des meilleurs conseils en matière de soins de la peau.</p>
+
+    <p className="mt-[40px]"> Rejoignez notre communauté dès aujourd'hui et faites partie d'un groupe de personnes passionnées qui se soutiennent mutuellement dans leur voyage vers une peau saine, éclatante et confiante. Ensemble, nous pouvons échanger des connaissances, partager des expériences et célébrer les réussites, car une belle peau est un voyage que nous faisons ensemble.</p>
   </div>
 }
 export {switchtext}

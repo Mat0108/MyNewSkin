@@ -1,6 +1,5 @@
 
 import { useState,useEffect } from "react";
-import point from "../../images/point.png";
 const Carousel2 =({props})=>{
     // props : {{items,nbShow}}
     const [show,setShow]= useState(0)
