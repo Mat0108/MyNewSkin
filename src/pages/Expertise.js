@@ -4,10 +4,10 @@ import Layout1image from "../components/Layout/Layout1image";
 import Layout1imageinv from "../components/Layout/Layout1imageinv";
 import LayoutFullImage from "../components/Layout/LayoutFullImage";
 import { switchtext } from "../components/textdivers";
-import v13 from "./../images/visage13.png";
-import v14 from "./../images/visage14.png";
-import v15 from "./../images/visage15.png";
-import v16 from "./../images/visage16.png";
+import v13 from "./../images/visage/visage13.png";
+import v14 from "./../images/visage/visage14.png";
+import v15 from "./../images/visage/visage15.png";
+import v16 from "./../images/visage/visage16.png";
 const Expertise = ()=>{
     return (<>
         <LayoutFullImage props={{titre:"NOTRE EXPERTISE",image1:{url:v13,alt:"visage13"}}}/>

@@ -4,23 +4,23 @@ import Layout1image from "../components/Layout/Layout1image";
 import Layout1imageinv from "../components/Layout/Layout1imageinv";
 import LayoutFullImage from "../components/Layout/LayoutFullImage";
 import { switchtext } from "../components/textdivers";
-import v15 from "./../images/visage15.png";
-import v16 from "./../images/visage16.png";
-import v17 from "./../images/visage17.png";
-import v18 from "./../images/visage18.png";
-import v19 from "./../images/visage19.png";
-import v14 from "./../images/visage14.png";
-import v2 from "./../images/visage2.png";
-import v3 from "./../images/visage3.png";
-import v4 from "./../images/visage4.png";
-import v7 from "./../images/visage7.png";
-import v8 from "./../images/visage8.png";
+import v15 from "./../images/visage/visage15.png";
+import v16 from "./../images/visage/visage16.png";
+import v17 from "./../images/visage/visage17.png";
+import v18 from "./../images/visage/visage18.png";
+import v19 from "./../images/visage/visage19.png";
+import v14 from "./../images/visage/visage14.png";
+import v2 from "./../images/visage/visage2.png";
+import v3 from "./../images/visage/visage3.png";
+import v4 from "./../images/visage/visage4.png";
+import v7 from "./../images/visage/visage7.png";
+import v8 from "./../images/visage/visage8.png";
 import search from "./../images/search.png";
 import love from "./../images/love.png";
 import partage from "./../images/partage.png";
 import comment from "./../images/comment.png";
 
-import v20 from "./../images/visage20.png";
+import v20 from "./../images/visage/visage20.png";
 import Carousel2 from './../components/Layout/Carousel2';
 const Commu = ()=>{
     function itemCarousel(image,titre){
@@ -111,8 +111,8 @@ const Commu = ()=>{
                 <div className="w-[10%] h-fit p-4 flex center relative">
                     <img src={search} alt={search} height={30} width={30}/>
                 </div>
-                <div className="w-[90%] h-fit flex relative">
-                    <p className="text-black text-[40px]">Recherche dans la communauté</p>
+                <div className="w-[90%] h-fit flex relative items-center">
+                    <p className="text-black text-[30px]">Recherche dans la communauté</p>
                 </div>
             </div>
             <div className="w-full h-full my-[30px] flex flex-row justify-between">
@@ -128,13 +128,16 @@ const Commu = ()=>{
             <div className="w-[80%] mx-auto mt-[40px]">
                 <div className="border-2 border-blue rounded-full w-[740px] h-[62px] px-8 py-2 flex flex-row relative"> 
                     <div className="w-full h-fit flex relative">
-                        <p className="text-black text-[28px]">Léa community manager : à posté une photo</p>
+                        <p className="text-black text-[28px]"><span className="text-blue font-av-bold text-[29px]">Léa community manager :</span> à posté une photo</p>
                     </div>
                 </div>
+                <div className="h-[500px] overflow-hidden hover:overflow-auto ">
                 {explorerItem(v20,"",{love:25,comment:18,partage:10},"Acnès & soins")}
 
                 {explorerItem(v19,"",{love:14,comment:38,partage:4},"Soins")}
-            </div>
+
+                </div>
+                </div>
 
             </div>
             

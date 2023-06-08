@@ -20,9 +20,9 @@ const Footer = ()=>{
             <div>
                 <p className="font-av-bold text-[30px]">Menu</p>
                 <p className="mt-[10px] text-[12px]">Expert facialiste</p>
-                <p className="text-[12px]">Diagnostiques</p>
+                {/* <p className="text-[12px]">Diagnostiques</p> */}
                 <p className="text-[12px]">Soins</p>
-                <p className="text-[12px]">Panier</p>
+                <p className="text-[12px]">Conseils</p>
             </div>
         </div>
         <div className="col-start-4 mt-[20px] text-left "> 
@@ -30,8 +30,8 @@ const Footer = ()=>{
                 <p className="font-av-bold text-[30px]">Découvrir Po.</p>
                 <p className="mt-[10px] text-[12px]">Notre histoire</p>
                 <p className="text-[12px]">Charte de formulation</p>
-                <p className="text-[12px]">Philosophie de nos emballages</p>
-                <p className="text-[12px]">Expert facialiste</p>
+                
+                <p className="text-[12px]">Notre histoire</p>
             </div>
         </div>   
         <div className="col-start-5 mt-[20px] text-left "> 

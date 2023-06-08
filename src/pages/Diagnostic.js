@@ -1,5 +1,5 @@
 
-import v21 from "./../images/visage21.png";
+import v21 from "./../images/visage/visage21.png";
 const Diagnostic = ()=>{
     return (<>
         <div className="">

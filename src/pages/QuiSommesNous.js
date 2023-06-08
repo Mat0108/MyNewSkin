@@ -5,10 +5,10 @@ import Layout2col from "../components/Layout/Layout2col";
 import {switchtext} from './../components/textdivers';
 
 import qsn from "./../images/quisommenous.png";
-import v9 from "./../images/visage9.png";
-import v10 from "./../images/visage10.png";
-import v11 from "./../images/visage11.png";
-import v12 from "./../images/visage12.png";
+import v9 from "./../images/visage/visage9.png";
+import v10 from "./../images/visage/visage10.png";
+import v11 from "./../images/visage/visage11.png";
+import v12 from "./../images/visage/visage12.png";
 import Carousel from "../components/Layout/Carousel";
 
 const QuiSommesNous = () =>{

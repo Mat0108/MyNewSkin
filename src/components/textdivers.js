@@ -1,5 +1,5 @@
 import buy from "../images/buy.png";
-import visage5 from "../images/visage5.png"
+import visage5 from "../images/visage/visage5.png"
 import skincare from "../images/SkinCare1.png"
 const switchtext=(params)=>{
   switch(params){
@@ -193,22 +193,10 @@ const EcoleDelphine = ()=>{
 }
 
 const Commu = ()=>{
-  return <div className="w-[70%]">
-    <p className="mt-[60px]"> Bienvenue dans la communauté Po. !</p>
-
-    <p className="mt-[20px]"> Notre communauté est un espace dédié aux passionnés de soins de la peau qui voudraient des conseils beauté et skincare, où vous pouvez partager vos expériences, poser des questions, échanger des conseils et trouver une source d'inspiration pour prendre soin de votre peau et vous acceptez vous-mêmes.</p>
-
-    <p className="mt-[20px]"> Ici, nous encourageons l'ouverture d'esprit, le respect mutuel et l'entraide. Que vous soyez un novice cherchant des conseils de base ou un expert partageant vos connaissances approfondies, vous êtes le bienvenu pour contribuer à agrandir notre communauté.</p>
-
-    <p className="mt-[30px] text-left"> Dans cette communauté, vous pourrez :</p>
-
-    <p className="mt-[20px] text-left "> <span className="font-av-bold">1. Poser des questions :</span> Vous avez une question sur un problème de peau spécifique ou sur l'utilisation d'un produit en particulier ? N'hésitez pas à poser vos questions et notre communauté se fera un plaisir de vous aider avec des réponses basées sur des expériences personnelles et des connaissances approfondies.</p>
-    <p className="mt-[20px] text-left"> <span className="font-av-bold">2. Partager vos conseils :</span> Vous avez découvert une routine de soins de la peau efficace ou un produit coup de cœur ? Partagez vos astuces et recommandations avec les autres membres de la communauté. Votre expérience peut aider quelqu'un à trouver la solution parfaite pour sa peau.</p>
-    <p className="mt-[20px] text-left"> <span className="font-av-bold">3. Raconter votre histoire :</span> Chaque peau a une histoire unique. Que vous ayez surmonté des problèmes de peau ou que vous ayez atteint un objectif spécifique, partagez votre parcours pour inspirer les autres membres de la communauté et leur montrer qu'ils ne sont pas seuls dans leur quête d'une peau saine et radieuse.</p>
-    <p className="mt-[20px] text-left"> <span className="font-av-bold">4. Participer aux discussions : </span>Nos fils de discussion sont l'endroit idéal pour engager des conversations intéressantes sur les dernières tendances en matière de soins de la peau, partager des idées créatives et discuter des défis auxquels nous sommes confrontés dans notre quête d'une peau magnifique. </p>
-    <p className="mt-[20px] text-left"> <span className="font-av-bold">5. Découvrir de nouvelles ressources :</span>En plus des discussions de la communauté, nous vous proposons des articles informatifs, des tutoriels et des revues de produits pour vous tenir au courant des dernières tendances et des meilleurs conseils en matière de soins de la peau.</p>
-
-    <p className="mt-[40px]"> Rejoignez notre communauté dès aujourd'hui et faites partie d'un groupe de personnes passionnées qui se soutiennent mutuellement dans leur voyage vers une peau saine, éclatante et confiante. Ensemble, nous pouvons échanger des connaissances, partager des expériences et célébrer les réussites, car une belle peau est un voyage que nous faisons ensemble.</p>
-  </div>
+  return <div className="w-[90%] mt-[10px]">
+    <p className="text-[32px]">
+    La communauté est au cœur de notre solution de soin de la peau avec expert facialiste. Nous croyons en la puissance du partage d'expériences, de conseils et de soutien mutuel.
+    </p>
+ </div>
 }
 export {switchtext}

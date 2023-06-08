@@ -9,10 +9,10 @@ import Newsletter from './../components/newsletter';
 
 import {switchtext} from './../components/textdivers';
 
-import fullvisage from "./../images/fullvisage.png";
-import visage2 from "./../images/visage2.png";
-import visage7 from "./../images/visage7.png";
-import visage8 from "./../images/visage8.png";
+import fullvisage from "./../images/visage/fullvisage.png";
+import visage2 from "./../images/visage/visage2.png";
+import visage7 from "./../images/visage/visage7.png";
+import visage8 from "./../images/visage/visage8.png";
 import produit1 from "./../images/produit1.png";
 import produit2 from "./../images/produit2.png";
 import produit3 from "./../images/produit3.png";

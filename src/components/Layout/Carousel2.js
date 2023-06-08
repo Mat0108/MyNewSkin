@@ -21,14 +21,14 @@ const Carousel2 =({props})=>{
     
     return (
         <div className="flex flex-row w-full">
-            <div className="w-[15%] flex center">
+            <div className="w-[7%] flex center">
                 <p className="text-5xl" onClick={()=>setShow(show == 0 ? Object.keys(props.items).length :show-1)}>{"<"}</p>
             </div>
-            <div className="flex flex-row w-[70%] h-full justify-between ">
+            <div className="flex flex-row w-[86%] h-full justify-between ">
                 
                 {items}
             </div>
-            <div className="w-[15%] flex center">
+            <div className="w-[7%] flex center">
                 <p className="text-5xl" onClick={()=>setShow(show>=Object.keys(props.items).length ? 1:show+1)}>{">"}</p>
             </div>
         </div>

@@ -11,12 +11,12 @@ const Navbar = () =>{
     return (
     <>
     
-    <div className='w-full h-[50px] border-b-2 border-white grid grid-cols-5 bg-[#DEE4E4]'>
-        <div className='col-start-1 ml-[35px] mt-[px] flex items-start ' ><a href="/"><img src={logo} alt="logo"/></a></div>
-        <div className='col-start-4 col-span-2 flex items-end'>
-            <div className='flex flex-row text-lg space-x-3 ml-[80px] mt-[10px]'>
+    <div className='w-full h-[80px] border-b-2 border-white grid grid-cols-5 bg-[#DEE4E4] p-2'>
+        <div className='col-start-1 ml-[35px] p-x-2 flex items-start ' ><a href="/" className='w-fit h-full'><img src={logo} alt="logo" className='h-full'/></a></div>
+        <div className='col-start-4 col-span-2 flex '>
+            <div className='flex flex-row text-lg space-x-3 ml-[80px] center '>
                 <a href="/APropos">A propos</a>
-                <a href="/Diagnostic">Diagnotic</a>
+                {/* <a href="/Diagnostic">Diagnotic</a> */}
                 <a href="/Expertise">Expertise</a>
                 <div>Conseils</div>
                 <a href="/Community">Community</a>
