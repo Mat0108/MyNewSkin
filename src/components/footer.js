@@ -25,7 +25,7 @@ const Footer = ()=>{
                 <p className="text-[12px]">Conseils</p>
             </div>
         </div>
-        <div className="col-start-4 mt-[20px] text-left "> 
+            <div className="col-start-4 mt-[20px] text-left "> 
             <div>
                 <p className="font-av-bold text-[30px]">Découvrir Po.</p>
                 <p className="mt-[10px] text-[12px]">Notre histoire</p>

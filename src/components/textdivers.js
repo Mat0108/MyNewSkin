@@ -27,8 +27,6 @@ const switchtext=(params)=>{
       return quisommesnous4();
     case "Carousel1":
       return Carousel1();
-    case "Carousel2":
-      return Carousel2();
     case "NotreHistoire":
       return NotreHistoire();
     case "EcoleDelphine":
@@ -117,24 +115,17 @@ const produitcol3 = () =>{
 
 
 const quisommesnous = () =>{
-  return (<div className="h-[900px]">
-    <p className="text-[50px] font-av-bold text-blue text-center w-[700px]">Notre histoire</p>
-    <div className="w-[80%] h-full">
-    <p className="mt-[20px]">Bienvenue sur notre site de conseil skincare et de suivi ! </p>
-    <p className="mt-[20px]">Nous sommes ravis de vous accompagner dans votre parcours vers une peau saine et éclatante. Chez Po., nous croyons en l'importance d'une routine skincare adaptée à chaque peau et pour chaque individu, et nous sommes là pour vous guider à chaque étape.</p>
-
-    <p className="mt-[20px]">Notre équipe de passionnés de skincare est composée d'experts qualifiés dans le domaine. Nous avons rassemblé leurs connaissances et leur expertise pour vous fournir des conseils personnalisés et des informations de qualité sur les soins de la peau.</p>
-
-    <p className="mt-[20px]">Que vous soyez novice en matière de skincare ou que vous cherchiez à améliorer votre routine existante, nous avons tout ce dont vous avez besoin. Notre site regorge de ressources utiles, y compris des articles informatifs, des tutoriels vidéo, des guides d'achat et des recommandations de produits, des experts facialistes pouvant vous donner des conseils et assurer un suivi.</p>
-
-    <p className="mt-[20px]">Nous comprenons que chaque peau est unique, c'est pourquoi nous mettons l'accent sur le suivi et les conseils personnalisés. Vous pouvez créer un compte sur notre site pour bénéficier d'un suivi individualisé de votre routine skincare. En répondant à quelques questions simples sur votre type de peau, vos préoccupations et vos objectifs, nous pourrons vous proposer des recommandations sur mesure et ajuster votre routine au fur et à mesure.</p>
-
-    <p className="mt-[20px]">La transparence et la bienveillance sont des valeurs importantes chez Po.. Nous veillons à ce que toutes les informations que nous partageons soient basées sur des recherches scientifiques et des sources fiables. Nous collaborons avec des experts facialistes et des marques spécialistes de la peau pour vous offrir des conseils fiables et à jour.</p>
-
-    <p className="mt-[20px]">Nous espérons que notre site vous inspirera à prendre soin de votre peau et à vous sentir bien dans votre peau. N'hésitez pas à explorer nos différentes sections, à poser des questions et à interagir avec notre communauté faite pour vous. Nous sommes là pour vous accompagner dans votre voyage vers une peau épanouie et radieuse.</p>
-
-    <p className="mt-[20px]">Bienvenue dans la communauté Po. !</p>
-    </div>
+  return (<div className="">
+    <p className="text-[50px] font-av-bold text-blue text-left w-[40%]">Notre histoire</p>
+    <p className="text-[50px] font-av-bold text-blue text-left w-[40%]">et votre histoire</p>
+    <div className="w-[70%] h-full text-left text-[16px]">
+    <p className="mt-[20px]">Chez Po, nous mettons tout en œuvre pour vous offrir une expérience de soin de peau exceptionnelle. Notre équipe dévouée d'experts en skincare est là pour vous accompagner à chaque étape de votre parcours. Que vous cherchiez à résoudre des problèmes de peau spécifiques, à améliorer votre routine existante ou à découvrir de nouveaux produits, nous sommes là pour vous guider.</p>
+    <p className="mt-[20px]">Grâce à notre expertise et à notre passion pour la peau, nous vous proposons des conseils personnalisés, des recommandations de produits adaptés à votre type de peau et des informations de qualité basées sur des recherches scientifiques. Nous croyons en l'importance de la transparence et de l'éducation, c'est pourquoi nous partageons des ressources utiles et des guides d'achat détaillés pour vous aider à prendre des décisions éclairées.</p>
+    <p className="mt-[20px]">En nous rejoignant, vous bénéficierez également de l'accès à notre communauté d'experts facialistes et d'autres passionnés de skincare. Vous pourrez échanger des conseils, partager votre expérience et trouver du soutien tout au long de votre parcours de soin de peau.</p> 
+    <p className="mt-[20px]">Chez Po, nous sommes là pour vous aider à atteindre une peau saine, équilibrée et rayonnante.</p>
+ 
+  </div>
+  <div className="w-[70%] mt-[20px] flex center"><div className="ml-[10px] text-[30px] w-fit px-10 py-4 bg-[#83C5BE] rounded-full font-av-bold text-[#264C4D] text-left"><p>En savoir plus</p></div></div>   
       
   </div>)
 }
@@ -145,21 +136,23 @@ const quisommesnous2 = () =>{
   </>)
 }
 const quisommesnous3 = () =>{
-  return (<>
+  return (<div className="w-[450px]">
     <p className="mt-[32px] mb-[32px] text-[24px] font-av-bold text-blue text-center w-full">CONCEPT</p>
+    <div className=""><p className="mt-[32px] mb-[32px] text-[16px] font-av-bold text-blue text-center w-full">Po. est bien plus qu'une simple application de soins de la peau, c'est une véritable solution complète pour vous accompagner dans votre parcours de beauté. Avec Po, vous avez accès à une multitude d'outils et de ressources pour prendre soin de votre peau de manière personnalisée et efficace.</p>
+    </div>
       
-  </>)
+  </div>)
 }
 const quisommesnous4 = () =>{
-  return (<>
+  return (<div className="w-[450px]">
     <p className="mt-[32px] mb-[32px] text-[24px] font-av-bold text-blue text-center w-full">TEAM</p>
-      
-  </>)
+    <div className=""><p className="mt-[32px] mb-[32px] text-[16px] font-av-bold text-blue text-center w-full">Nous sommes une équipe passionnée et dévouée, composée d'experts en soins de la peau, de spécialistes en technologie et de professionnels du marketing. Notre objectif principal est de vous offrir une expérience personnalisée et de haute qualité, en vous proposant les meilleurs conseils, produits et services pour prendre soin de votre peau.</p>
+    </div>
+  </div>)
 }
 
 const Carousel1 = () =>{
   return (<>
-  <div className="mt-[20px]"> <img src={visage5} alt="visage5" /></div>  
   <p className="mt-[20px] text-[16px] font-av-bold text-blue">4 types de peau, 4 types de soins </p>    
   <p className="text-[16px]">Quel nettoyant choisir ? quel serum vous correspond ? </p>
   <p className="text-[16px]">Comprenez et accepter la nature de votre peau grâce à nos conseils ciblés pour vous.</p>  
@@ -171,6 +164,7 @@ const Carousel2 = () =>{
     <div className="w-[686px] h-[300px] flex flex-row">
         <div className="w-[343px] h-full bg-white rounded-l-2xl">
           <p className="text-[30px] mt-[20px]">Marie du pont</p>
+          <p className="text-[16px] mx-auto mt-[20px] w-[90%]">"Je suis totalement bluffé par l'efficacité de Po. En suivant leurs conseils, ma peau a retrouvé son éclat naturel et mes problèmes de peau ont disparu. J'adore l'approche personnalisée de Po, qui s'adapte parfaitement à mes besoins.. "</p>
         </div>
         <div className="w-[343px] h-[300px]">
           <img src={skincare} alt="skincare"/>
