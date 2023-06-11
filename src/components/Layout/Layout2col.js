@@ -7,13 +7,13 @@ const Layout2col =({props})=>{
             <div className="mx-auto w-fit row-start-2 grid grid-cols-2 gap-[160px]">
                 <div className="col-start-1 w bg-[#DEE4E4] flex justify-start">
                     <div className="flex flex-col ">
-                        <div className="ml-[30px] mt-[60px]"> <img src={props.image1.url} alt={props.image1.alt}  /></div>        
+                        <img src={props.image1.url} alt={props.image1.alt} className={props.image1.className} />      
                         {props.col1}
                     </div>
                 </div>
                 <div className="col-start-2 w bg-[#DEE4E4] flex justify-start">
                     <div className="flex flex-col ">
-                        <div className="ml-[30px] mt-[60px]"> <img src={props.image2.url} alt={props.image2.alt}  /></div>        
+                         <img src={props.image2.url} alt={props.image2.alt}  className={props.image2.className}/>        
                         {props.col2}
                     </div>
                 </div>

@@ -4,25 +4,27 @@ import Layout1image from "../components/Layout/Layout1image";
 import Layout1imageinv from "../components/Layout/Layout1imageinv";
 import LayoutFullImage from "../components/Layout/LayoutFullImage";
 import { switchtext } from "../components/textdivers";
-import v15 from "./../images/visage15.png";
-import v16 from "./../images/visage16.png";
-import v17 from "./../images/visage17.png";
-import v18 from "./../images/visage18.png";
-import v19 from "./../images/visage19.png";
-import v14 from "./../images/visage14.png";
-import v2 from "./../images/visage2.png";
-import v3 from "./../images/visage3.png";
-import v4 from "./../images/visage4.png";
-import v7 from "./../images/visage7.png";
-import v8 from "./../images/visage8.png";
+import v15 from "./../images/visage/visage15.png";
+import v16 from "./../images/visage/visage16.png";
+import v17 from "./../images/visage/visage17.png";
+import v18 from "./../images/visage/visage18.png";
+import v19 from "./../images/visage/visage19.png";
+import v14 from "./../images/visage/visage14.png";
+import v2 from "./../images/visage/visage2.png";
+import v3 from "./../images/visage/visage3.png";
+import v4 from "./../images/visage/visage4.png";
+import v7 from "./../images/visage/visage7.png";
+import v8 from "./../images/visage/visage8.png";
 import search from "./../images/search.png";
 import love from "./../images/love.png";
 import partage from "./../images/partage.png";
 import comment from "./../images/comment.png";
 
-import v20 from "./../images/visage20.png";
+import v20 from "./../images/visage/visage20.png";
 import Carousel2 from './../components/Layout/Carousel2';
+import { useState } from "react";
 const Commu = ()=>{
+    const [fil,setFil] = useState(true)
     function itemCarousel(image,titre){
         return (<div className="relative w-[300px] h-[200px] rounded-2xl bg-white" key={`item-${titre}`}>
             <img src={image} alt={titre} className="w-full h-full rounded-2xl"/>
@@ -88,12 +90,12 @@ const Commu = ()=>{
                 <div className='w-full flex center mt-[60px]'><img src={v18} alt={"v18"} className="w-full"/></div>
                 <div className="w-full flex center ">{switchtext("Commu")}</div>
                 <div className="flex center mt-[60px]"><div className="text-[36px] w-fit px-8 py-4 bg-[#264C4D] rounded-full font-av-bold text-white text-left"><p>Rejoigner la communauté</p></div></div>
-                <div className=" flex flex-row center mt-[80px] mb-[80px]">
+                <div className="flex flex-row center mt-[80px] mb-[80px] ">
 
-                    <div className="w-[220px] h-[220px]">
-                    <img src={v19} alt="v19" className="w-full h-full"/>
-                    </div>
-                <div className="w-[1100px] h-[220px] bg-white rounded-r-3xl p-4 flex flex-col">
+                    <div className="w-[220px] h-[220px] bg-[#D9D9D9] rounded-l-3xl">
+                    <img src={v19} alt="v19" className="w-full h-full rounded-3xl"/>
+                </div>
+                <div className="w-[1100px] h-[220px]  p-4 flex flex-col bg-[#D9D9D9] rounded-r-3xl">
                     <div className="text-[36px] font-av-bold text-left">Nouveau venu ?</div>
                     <div className="h-[10px]"></div>
                     <div className="text-[30px] mt-[1Opx] font-av-bold text-left">On vous montre comment ça marche ?</div>
@@ -104,15 +106,15 @@ const Commu = ()=>{
         <div className="w-[80%] flex flex-col mx-auto mb-[20px]">
             <p className="text-[50px] text-left text-blue font-av-bold">Pour bien démarrer sur la commununauté</p>
         </div>
-        <Carousel2 props={{items:listCarousel,nbShow:4}}/>
+        <Carousel2 props={{items:listCarousel,nbShow:4,ratio:10,showPoint:false}}/>
         <div className="w-[80%] mx-auto mt-[50px]">
             <p className="text-[50px] text-left text-blue font-av-bold">Explorer</p>
             <div className="border-2 border-blue rounded-3xl w-full h-[62px] flex flex-row relative">
                 <div className="w-[10%] h-fit p-4 flex center relative">
                     <img src={search} alt={search} height={30} width={30}/>
                 </div>
-                <div className="w-[90%] h-fit flex relative">
-                    <p className="text-black text-[40px]">Recherche dans la communauté</p>
+                <div className="w-[90%] h-fit flex relative items-center">
+                    <p className="text-black text-[30px]">Recherche dans la communauté</p>
                 </div>
             </div>
             <div className="w-full h-full my-[30px] flex flex-row justify-between">
@@ -123,17 +125,30 @@ const Commu = ()=>{
                 {item("Acnès")}
             </div>
         </div>
+        <div className="w-full h-[150px] flex flex col">
+            <div className="w-1/2 h-full flex center">
+                <div className="text-[50px]">Fil d'actualité</div>
+            </div>
+            <div className="w-1/2 h-full flex center">
+                <div className="text-[50px]">La communauté aime</div>
+            </div>
+            
+        </div>
         <div className="w-full h-[3px] bg-gray mb-[5px]"></div>
+
         <div className="w-full h-fit ">
             <div className="w-[80%] mx-auto mt-[40px]">
                 <div className="border-2 border-blue rounded-full w-[740px] h-[62px] px-8 py-2 flex flex-row relative"> 
                     <div className="w-full h-fit flex relative">
-                        <p className="text-black text-[28px]">Léa community manager : à posté une photo</p>
+                        <p className="text-black text-[28px]"><span className="text-blue font-av-bold text-[29px]">Léa community manager :</span> à posté une photo</p>
                     </div>
                 </div>
+                <div className="h-[500px] overflow-hidden hover:overflow-auto ">
                 {explorerItem(v20,"",{love:25,comment:18,partage:10},"Acnès & soins")}
 
                 {explorerItem(v19,"",{love:14,comment:38,partage:4},"Soins")}
+
+                </div>
             </div>
 
             </div>

@@ -2,6 +2,7 @@ import { useState } from "react"
 import fleche from "../images/fleche.png"
 import { initializeApp } from 'firebase/app';
 import { getFirestore, collection, getDocs,doc, setDoc } from 'firebase/firestore';
+import { toast } from "react-toastify";
 
 const Newsletter =()=>{
     const [value, setValue] = useState()
@@ -22,7 +23,7 @@ const Newsletter =()=>{
             mail: mail
           };
         // await db.collection('User').doc('User').set(user);
-        await setDoc(doc(db, "User", mail), user).then(setValue(""));
+        await setDoc(doc(db, "User", mail), user).then(e=>{setValue("");toast.success("Email inscript pour la newsletter")});
       }
       
     return (<>

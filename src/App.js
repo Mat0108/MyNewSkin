@@ -13,6 +13,8 @@ import Footer from './components/footer';
 import Newsletter from './components/newsletter';
 import Commu from './pages/Commu';
 import Diagnostic from './pages/Diagnostic';
+import { ToastContainer } from 'react-toastify';
+import "react-toastify/dist/ReactToastify.css";
 function App() {
   // const text1 = "Son corps idéal : elle voudrait prendre soin de sa peau facilement, et trouver une rutine skin care qui correspond à son type de peau sans passer des mois à contacter un spécialiste.";
   
@@ -29,6 +31,17 @@ function App() {
         </Routes>
         <Newsletter />
         <Footer />
+        <ToastContainer
+          position="top-center"
+          autoClose={5000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+        />
       </Router>
     </div>
   );
