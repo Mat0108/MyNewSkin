@@ -31,7 +31,7 @@ const Conseils = () =>{
     const itemCarousel=[
         Item({image:{src:skincare,alt:"skincare"}}),
         Item({image:{src:skincare,alt:"skincare"}}),
-        Item({titre:"Matthieu",text:"Je suis totalement bluffé par l'efficacité de Po. En suivant leurs conseils, ma peau a retrouvé son éclat naturel et mes problèmes de peau ont disparu. J'adore l'approche personnalisée de Po, qui s'adapte parfaitement à mes besoins.. ",image:{src:skincare,alt:"skincare"}})
+        Item({image:{src:skincare,alt:"skincare"}})
     
     ]
     return (<>
