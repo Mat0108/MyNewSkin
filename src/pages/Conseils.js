@@ -8,42 +8,71 @@ import qsn from "./../images/quisommenous.png";
 import v9 from "./../images/visage/visage9.png";
 import v10 from "./../images/visage/visage10.png";
 import v11 from "./../images/visage/visage11.png";
-import v12 from "./../images/visage/visage12.png";
+import v14 from "./../images/visage/visage14.png";
 import Carousel from "../components/Layout/Carousel";
-
+import v5 from "./../images/visage/visage5.png";
 import skincare from "../images/SkinCare1.png"
 import Carousel2 from "../components/Layout/Carousel2";
 
 const Conseils = () =>{
-    function Item(props){
-        return (
-        <div className="w-[686px] h-[300px] flex flex-row">
-            <div className="w-[343px] h-full bg-white rounded-l-2xl">
-              <p className="text-[30px] mt-[20px]">{props.titre}</p>
-              <p className="text-[16px] mx-auto mt-[20px] w-[90%]">{props.text}</p>
+    function itemCarousel(image,col){
+        return (<>
+            <div className="relative w-full h-fit mt-[10px] flex center">
+                <div>
+                    <div className="mt-[20px] w-full flex center"> <img src={image}  alt="image"/></div>  
+                    {col}    
+                </div>
             </div>
-            <div className="w-[343px] h-[300px]">
-              <img src={props.image.src} alt={props.image.alt}/>
-            </div>
-        </div>
-        )
+            </>)
+
     }
-    const itemCarousel=[
-        Item({image:{src:skincare,alt:"skincare"}}),
-        Item({image:{src:skincare,alt:"skincare"}}),
-        Item({image:{src:skincare,alt:"skincare"}})
-    
+    let listCarousel = [
+        itemCarousel(v5,switchtext("Carousel1")),
+        itemCarousel(v5,switchtext("Carousel1")),
+        itemCarousel(v5,switchtext("Carousel1"))
+    ]
+    let listCarousel2 = [
+        itemCarousel(v14,switchtext("Carousel1")),
+        itemCarousel(v14,switchtext("Carousel1")),
+        itemCarousel(v14,switchtext("Carousel1")),
+        itemCarousel(v14,switchtext("Carousel1")),
+        itemCarousel(v14,switchtext("Carousel1")),
+        itemCarousel(v14,switchtext("Carousel1"))
+    ]
+    let listCarousel3 = [
+        itemCarousel(v14,switchtext("Carousel1")),
+        itemCarousel(v14,switchtext("Carousel1")),
+        itemCarousel(v14,switchtext("Carousel1")),
+        itemCarousel(v14,switchtext("Carousel1")),
+        itemCarousel(v14,switchtext("Carousel1")),
+        itemCarousel(v14,switchtext("Carousel1"))
+    ]
+    let listCarousel4 = [
+        itemCarousel(v14,switchtext("Carousel1")),
+        itemCarousel(v14,switchtext("Carousel1")),
+        itemCarousel(v14,switchtext("Carousel1")),
+        itemCarousel(v14,switchtext("Carousel1")),
+        itemCarousel(v14,switchtext("Carousel1")),
+        itemCarousel(v14,switchtext("Carousel1"))
     ]
     return (<>
-    <LayoutFullImage props={{titre:"QUI SOMMES NOUS ?",image1:{url:qsn,alt:"quisommenous"}}}/>
-    <Layout1imageinv props={{col1:switchtext("Conseils"),image1:{url:v9,alt:"visage9"}}} />
-    <div className="w-full">
-        <img src={v10} alt={"visage10"} className="w-full"/>
-    </div>
-    <Layout2col props={{titre:switchtext("Conseils2"),col1:switchtext("Conseils3"),image1:{url:v11,alt:"visage11",className:"mt-[60px]"},col2:switchtext("Conseils4"),image2:{url:v12,alt:"visage12",className:"mt-[60px]"}}}/>
-    <div className="w-full text-center"><p className="mt-[30px] text-[50px] font-av-bold text-blue ">Témoignages</p></div>
-    <Carousel2 props={{items:itemCarousel,nbShow:1,ratio:20,showPoint:true}}/>
-    <div className="mb-[40px]"></div>
+    <div className="w-full text-center text-[50px] font-av-bold text-blue">Nos conseils</div>
+    <Carousel2 props={{items:listCarousel,nbShow:1,ratio:20,showPoint:true}}/>
+
+    <div className="relative w-full h-0.5 mt-[30px] bg-[#10264C4D]"></div>
+
+    <div className="w-full text-center text-[50px] font-av-bold text-blue">Nos conseils</div>
+    <Carousel2 props={{items:listCarousel2,nbShow:3,ratio:10,showPoint:true}}/>
+
+    <div className="relative w-full h-0.5 mt-[30px] bg-[#10264C4D]"></div>
+
+    <div className="w-full text-center text-[50px] font-av-bold text-blue">Nos conseils</div>
+    <Carousel2 props={{items:listCarousel2,nbShow:3,ratio:10,showPoint:true}}/>
+
+    <div className="relative w-full h-0.5 mt-[30px] bg-[#10264C4D]"></div>
+
+    <div className="w-full text-center text-[50px] font-av-bold text-blue">Nos conseils</div>
+    <Carousel2 props={{items:listCarousel2,nbShow:3,ratio:10,showPoint:true}}/>
     </>)
 }
 
