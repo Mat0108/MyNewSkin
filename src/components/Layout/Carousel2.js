@@ -26,9 +26,7 @@ const Carousel2 =({props})=>{
         if(props.ratio) {setRatio(props.ratio)}
         }, [props,show])
     return (
-        <div className="w-full flex flex-col">
-
-        
+        <div className="w-full flex flex-col">       
             <div className="flex flex-row w-full">
                 <div className={`${getW(ratio)} flex center`}>
                     <p className="text-5xl" onClick={()=>setShow(show == 0 ? Object.keys(props.items).length-1 :show-1)}>{"<"}</p>
@@ -42,7 +40,7 @@ const Carousel2 =({props})=>{
                 </div>
 
             </div>
-        {props.showPoint && <div className="w-full flex center mt-[10px]">
+            {props.showPoint && <div className="w-full flex center mt-[10px]">
                 <div className="w-fit flex flex-row">
                     {props.items.map((e,pos)=>{return <div className="w-[18px] h-[21px]"><img src={pos==show ? Big : Low} alt={"point"}/></div>})}        
                 </div>
