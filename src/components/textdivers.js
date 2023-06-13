@@ -193,4 +193,35 @@ const Commu = ()=>{
     </p>
  </div>
 }
+
+// PAGES CONSEILS & ASTUCES
+const ConseilCarousel1 = () =>{
+  return (<>
+  <p className="mt-[20px] text-[16px] font-av-bold text-blue">4 types de peau, 4 types de soins </p>    
+  <p className="text-[16px]">Quel nettoyant choisir ? quel serum vous correspond ? </p>
+  <p className="text-[16px]">Comprenez et accepter la nature de votre peau grâce à nos conseils ciblés pour vous.</p>  
+  </>)
+}
+const Conseilarousel2 = () =>{
+  return (<>
+  <p className="mt-[20px] text-[16px] font-av-bold text-blue">4 types de peau, 4 types de soins </p>    
+  <p className="text-[16px]">Quel nettoyant choisir ? quel serum vous correspond ? </p>
+  <p className="text-[16px]">Comprenez et accepter la nature de votre peau grâce à nos conseils ciblés pour vous.</p>  
+  </>)
+}
+const ConseilCarousel3 = () =>{
+  return (<>
+  <p className="mt-[20px] text-[16px] font-av-bold text-blue">4 types de peau, 4 types de soins </p>    
+  <p className="text-[16px]">Quel nettoyant choisir ? quel serum vous correspond ? </p>
+  <p className="text-[16px]">Comprenez et accepter la nature de votre peau grâce à nos conseils ciblés pour vous.</p>  
+  </>)
+}
+const ConseilCarousel4 = () =>{
+  return (<>
+  <p className="mt-[20px] text-[16px] font-av-bold text-blue">4 types de peau, 4 types de soins </p>    
+  <p className="text-[16px]">Quel nettoyant choisir ? quel serum vous correspond ? </p>
+  <p className="text-[16px]">Comprenez et accepter la nature de votre peau grâce à nos conseils ciblés pour vous.</p>  
+  </>)
+}
+// PAGES CONSEILS & ASTUCES
 export {switchtext}
