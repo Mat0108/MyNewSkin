@@ -82,7 +82,8 @@ const Conseils = () =>{
 
     <div className="relative w-full h-0.5 mt-[100px] mb-[100px] bg-[#10264C4D]"></div>
 
-    <div className="w-full text-left text-[50px] mt-[20px] ml-[155px] font-av-bold text-blue">Nos conseils</div>
+    <div className="w-full text-left text-[50px] mt-[20px] ml-[155px] font-av-bold text-blue">Interviews</div>
+    <div className="w-full text-left text-[30px] ml-[155px] text-blue">Des personnes inspirants et qui vous ressemblent</div>
     <Carousel2 props={{items:listCarousel4,nbShow:3,ratio:10,showPoint:true}}/>
     <div className="w-full h-[20px]"></div>
     </>)
