@@ -10,6 +10,15 @@ import I1C2 from "./../images/conseils/Carousel2/Image1C2.png";
 import I2C2 from "./../images/conseils/Carousel2/Image2C2.png";
 import I3C2 from "./../images/conseils/Carousel2/Image3C2.png";
 
+import MQ from "./../images/conseils/Carousel3/maquillage.png";
+import NU from "./../images/conseils/Carousel3/routines.png";
+import RT from "./../images/conseils/Carousel3/nutrition.png";
+
+import I1C4 from "./../images/conseils/Carousel4/Image1C4.png";
+import I2C4 from "./../images/conseils/Carousel4/Image2C4.png";
+import I3C4 from "./../images/conseils/Carousel4/Image3C4.png";
+
+
 import {switchtext} from './../components/textdivers';
 
 import qsn from "./../images/quisommenous.png";
@@ -48,20 +57,20 @@ const Conseils = () =>{
         itemCarousel(I3C2,switchtext("Carousel1"))
     ]
     let listCarousel3 = [
-        itemCarousel(v14,switchtext("Carousel1")),
-        itemCarousel(v14,switchtext("Carousel1")),
-        itemCarousel(v14,switchtext("Carousel1")),
-        itemCarousel(v14,switchtext("Carousel1")),
-        itemCarousel(v14,switchtext("Carousel1")),
-        itemCarousel(v14,switchtext("Carousel1"))
+        itemCarousel(MQ,switchtext("Carousel1")),
+        itemCarousel(RT,switchtext("Carousel1")),
+        itemCarousel(NU,switchtext("Carousel1")),
+        itemCarousel(MQ,switchtext("Carousel1")),
+        itemCarousel(RT,switchtext("Carousel1")),
+        itemCarousel(NU,switchtext("Carousel1"))
     ]
     let listCarousel4 = [
-        itemCarousel(v14,switchtext("Carousel1")),
-        itemCarousel(v14,switchtext("Carousel1")),
-        itemCarousel(v14,switchtext("Carousel1")),
-        itemCarousel(v14,switchtext("Carousel1")),
-        itemCarousel(v14,switchtext("Carousel1")),
-        itemCarousel(v14,switchtext("Carousel1"))
+        itemCarousel(I1C4,switchtext("Carousel1")),
+        itemCarousel(I2C4,switchtext("Carousel1")),
+        itemCarousel(I3C4,switchtext("Carousel1")),
+        itemCarousel(I1C4,switchtext("Carousel1")),
+        itemCarousel(I2C4,switchtext("Carousel1")),
+        itemCarousel(I3C4,switchtext("Carousel1"))
     ]
     return (<>
 
@@ -72,18 +81,18 @@ const Conseils = () =>{
 
     <div className="relative w-full h-0.5 mt-[30px] bg-[#10264C4D]"></div>
 
-    <div className="w-full text-center text-[50px] font-av-bold text-blue">Nos conseils</div>
+    <div className="w-full text-center text-[50px] font-av-bold text-blue">Les derniers tutos...</div>
     <Carousel2 props={{items:listCarousel2,nbShow:3,ratio:10,showPoint:true}}/>
 
     <div className="relative w-full h-0.5 mt-[30px] bg-[#10264C4D]"></div>
 
-    <div className="w-full text-center text-[50px] font-av-bold text-blue">Nos conseils</div>
-    <Carousel2 props={{items:listCarousel2,nbShow:3,ratio:10,showPoint:true}}/>
+    <div className="w-full text-center text-[50px] font-av-bold text-blue">Catégories</div>
+    <Carousel2 props={{items:listCarousel3,nbShow:3,ratio:10,showPoint:true}}/>
 
     <div className="relative w-full h-0.5 mt-[30px] bg-[#10264C4D]"></div>
 
-    <div className="w-full text-center text-[50px] font-av-bold text-blue">Nos conseils</div>
-    <Carousel2 props={{items:listCarousel2,nbShow:3,ratio:10,showPoint:true}}/>
+    <div className="w-full text-center text-[50px] font-av-bold text-blue">Interviews</div>
+    <Carousel2 props={{items:listCarousel4,nbShow:3,ratio:10,showPoint:true}}/>
     </>)
 }
 
