@@ -74,7 +74,7 @@ const Conseils = () =>{
     ]
     return (<>
 
-    <LayoutFullImage props={{image1:{url:qsn,alt:"Conseil-banner"}}}/>  
+    <LayoutFullImage props={{image1:{url:cb,alt:"Conseil-banner"}}}/>  
 
     <div className="w-full text-center text-[50px] font-av-bold text-blue">Nos conseils</div>
     <Carousel2 props={{items:listCarousel,nbShow:1,ratio:20,showPoint:true}}/>
@@ -91,7 +91,7 @@ const Conseils = () =>{
 
     <div className="relative w-full h-0.5 mt-[30px] bg-[#10264C4D]"></div>
 
-    <div className="w-full text-center text-[50px] font-av-bold text-blue">Interviews</div>
+    <div className="w-full text-center text-[50px] font-av-bold text-blue">Nos conseils</div>
     <Carousel2 props={{items:listCarousel4,nbShow:3,ratio:10,showPoint:true}}/>
     </>)
 }
