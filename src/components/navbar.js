@@ -18,7 +18,7 @@ const Navbar = () =>{
                 <a href="/APropos">A propos</a>
                 {/* <a href="/Diagnostic">Diagnotic</a> */}
                 <a href="/Expertise">Expertise</a>
-                <div>Conseils</div>
+                <a href="/Conseils">Conseils</a>
                 <a href="/Community">Community</a>
                 {/* <div>Soins</div>
                 <div>Produits</div>
