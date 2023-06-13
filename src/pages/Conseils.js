@@ -84,6 +84,7 @@ const Conseils = () =>{
 
     <div className="w-full text-center text-[50px] font-av-bold text-blue">Nos conseils</div>
     <Carousel2 props={{items:listCarousel4,nbShow:3,ratio:10,showPoint:true}}/>
+    <div className="w-full h-[20px]"></div>
     </>)
 }
 
