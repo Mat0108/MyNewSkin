@@ -2,6 +2,14 @@ import Layout1imageinv from "../components/Layout/Layout1imageinv"
 import LayoutFullImage from "../components/Layout/LayoutFullImage"
 import Layout2col from "../components/Layout/Layout2col";
 
+import cb from "./../images/conseils/Conseil-banner.png";
+
+import I1C1 from "./../images/conseils/Carousel1/Image1C1.png";
+
+import I1C2 from "./../images/conseils/Carousel2/Image1C2.png";
+import I2C2 from "./../images/conseils/Carousel2/Image2C2.png";
+import I3C2 from "./../images/conseils/Carousel2/Image3C2.png";
+
 import {switchtext} from './../components/textdivers';
 
 import qsn from "./../images/quisommenous.png";
@@ -27,17 +35,17 @@ const Conseils = () =>{
 
     }
     let listCarousel = [
-        itemCarousel(v5,switchtext("Carousel1")),
-        itemCarousel(v5,switchtext("Carousel1")),
-        itemCarousel(v5,switchtext("Carousel1"))
+        itemCarousel(I1C1,switchtext("Carousel1")),
+        itemCarousel(I1C1,switchtext("Carousel1")),
+        itemCarousel(I1C1,switchtext("Carousel1"))
     ]
     let listCarousel2 = [
-        itemCarousel(v14,switchtext("Carousel1")),
-        itemCarousel(v14,switchtext("Carousel1")),
-        itemCarousel(v14,switchtext("Carousel1")),
-        itemCarousel(v14,switchtext("Carousel1")),
-        itemCarousel(v14,switchtext("Carousel1")),
-        itemCarousel(v14,switchtext("Carousel1"))
+        itemCarousel(I1C2,switchtext("Carousel1")),
+        itemCarousel(I2C2,switchtext("Carousel1")),
+        itemCarousel(I3C2,switchtext("Carousel1")),
+        itemCarousel(I2C2,switchtext("Carousel1")),
+        itemCarousel(I1C2,switchtext("Carousel1")),
+        itemCarousel(I3C2,switchtext("Carousel1"))
     ]
     let listCarousel3 = [
         itemCarousel(v14,switchtext("Carousel1")),
@@ -56,6 +64,9 @@ const Conseils = () =>{
         itemCarousel(v14,switchtext("Carousel1"))
     ]
     return (<>
+
+    <LayoutFullImage props={{image1:{url:qsn,alt:"Conseil-banner"}}}/>  
+
     <div className="w-full text-center text-[50px] font-av-bold text-blue">Nos conseils</div>
     <Carousel2 props={{items:listCarousel,nbShow:1,ratio:20,showPoint:true}}/>
 
