@@ -9,9 +9,10 @@ import v9 from "./../images/visage/visage9.png";
 import v10 from "./../images/visage/visage10.png";
 import v11 from "./../images/visage/visage11.png";
 import v12 from "./../images/visage/visage12.png";
-import Carousel from "../components/Layout/Carousel";
 
-import skincare from "../images/SkinCare1.png"
+import skincare from "../images/SkinCare1.png";
+import v24 from "../images/visage/visage24.png";
+import v25 from "../images/visage/visage25.png";
 import Carousel2 from "../components/Layout/Carousel2";
 
 const QuiSommesNous = () =>{
@@ -20,18 +21,19 @@ const QuiSommesNous = () =>{
         <div className="w-[686px] h-[300px] flex flex-row">
             <div className="w-[343px] h-full bg-white rounded-l-2xl">
               <p className="text-[30px] mt-[20px]">{props.titre}</p>
-              <p className="text-[16px] mx-auto mt-[20px] w-[90%]">{props.text}</p>
+              <p className="text-[14px] mx-auto mt-[20px] w-[92%]">{props.text}</p>
             </div>
-            <div className="w-[343px] h-[300px]">
-              <img src={props.image.src} alt={props.image.alt}/>
+            <div className="w-[343px] h-[300px] bg-white flex center">
+
+              <img src={props.image.src} alt={props.image.alt} />
             </div>
         </div>
         )
     }
     const itemCarousel=[
         Item({titre:"Marie du pont",text:"Je suis totalement bluffé par l'efficacité de Po. En suivant leurs conseils, ma peau a retrouvé son éclat naturel et mes problèmes de peau ont disparu. J'adore l'approche personnalisée de Po, qui s'adapte parfaitement à mes besoins.. ",image:{src:skincare,alt:"skincare"}}),
-        Item({titre:"Marie ",text:"Je suis totalement bluffé par l'efficacité de Po. En suivant leurs conseils, ma peau a retrouvé son éclat naturel et mes problèmes de peau ont disparu. J'adore l'approche personnalisée de Po, qui s'adapte parfaitement à mes besoins.. ",image:{src:skincare,alt:"skincare"}}),
-        Item({titre:"Matthieu",text:"Je suis totalement bluffé par l'efficacité de Po. En suivant leurs conseils, ma peau a retrouvé son éclat naturel et mes problèmes de peau ont disparu. J'adore l'approche personnalisée de Po, qui s'adapte parfaitement à mes besoins.. ",image:{src:skincare,alt:"skincare"}})
+        Item({titre:"Marie ",text:"Après avoir utilisé l'application de solution de soin de peau, je suis impressionné par les résultats obtenus. Ma peau est plus claire, plus lisse et plus radieuse. Les problèmes cutanés que je rencontrais auparavant, tels que l'acné et les rougeurs, se sont considérablement atténués. Je me sens tellement plus confiante et à l'aise dans ma peau. Cela a vraiment eu un impact positif sur mon bien-être global. Je recommande vivement. ",image:{src:v24,alt:"v24"}}),
+        Item({titre:"Matthieu",text:"En tant qu'homme, j'ai toujours été un peu réticent à l'idée d'utiliser des produits de soin de peau. Cependant, après avoir essayé votre solution de soin de peau, je suis agréablement surpris par les résultats. Ma peau est devenue plus nette, plus lisse et plus saine. Je remarque également une diminution des irritations et des imperfections. Je recommande vivement cette solution de soin de peau aux hommes qui cherchent à améliorer leur apparence et leur estime de soi.",image:{src:v25,alt:"v25"}})
     
     ]
     return (<>

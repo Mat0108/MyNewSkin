@@ -3,9 +3,7 @@ import LayoutFullImage from '../components/Layout/LayoutFullImage';
 import Layout1image from '../components/Layout/Layout1image';
 import Layout2image from '../components/Layout/Layout2image';
 import Layout3image from '../components/Layout/Layout3image';
-import Conseil from '../components/Layout/Carousel';
 import ExpertiseHome from '../components/ExpertiseHome';
-import Newsletter from './../components/newsletter';
 
 import {switchtext} from './../components/textdivers';
 
@@ -21,7 +19,6 @@ import visage23 from "./../images/visage/visage23.png";
 import produit1 from "./../images/produits/produit-01.png";
 import produit2 from "./../images/produits/produit-05.png";
 import produit3 from "./../images/produits/produit-06.png";
-import Carousel from '../components/Layout/Carousel';
 import Carousel2 from '../components/Layout/Carousel2';
 const Home = ()=>{
     function itemCarousel(image,col){
@@ -40,11 +37,7 @@ const Home = ()=>{
         itemCarousel(visage22,"Carousel2"),
         itemCarousel(visage23,"Carousel3")
     ]
-    function item(item){
-        return <div className="w-[240px] h-[70px] bg-[#264C4D] rounded-3xl flex center">
-            <p className="text-[25px] text-white">{item}</p>
-        </div>
-    }
+
     return (<div className='bg-[#EEE8E4]'>
         <LayoutFullImage props={{titre:"DECOUVREZ VOTRE PEAU",button:<div className="absolute z-[1000] top-[550px] w-full h-fit p-2 text-white_coffee text-[40px] flex center"><a className="w-fit py-2 px-6 bg-blue rounded-3xl" >Et révélez votre beauté naturelle</a> </div>,image1:{url:fullvisage,alt:"fullvisage"}}}/>
         <Layout1image props={{col1:switchtext("presentation"),image1:{url:visage2,alt:"visage2"}}} />
