@@ -18,18 +18,9 @@ import I1C4 from "./../images/conseils/Carousel4/Image1C4.png";
 import I2C4 from "./../images/conseils/Carousel4/Image2C4.png";
 import I3C4 from "./../images/conseils/Carousel4/Image3C4.png";
 
-
 import {switchtext} from './../components/textdivers';
-
-import qsn from "./../images/quisommenous.png";
-import v9 from "./../images/visage/visage9.png";
-import v10 from "./../images/visage/visage10.png";
-import v11 from "./../images/visage/visage11.png";
-import v14 from "./../images/visage/visage14.png";
-import Carousel from "../components/Layout/Carousel";
-import v5 from "./../images/visage/visage5.png";
-import skincare from "../images/SkinCare1.png"
 import Carousel2 from "../components/Layout/Carousel2";
+
 
 const Conseils = () =>{
     function itemCarousel(image,col){
