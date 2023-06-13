@@ -35,33 +35,33 @@ const Conseils = () =>{
 
     }
     let listCarousel = [
-        itemCarousel(I1C1,switchtext("Carousel1")),
-        itemCarousel(I1C1,switchtext("Carousel1")),
-        itemCarousel(I1C1,switchtext("Carousel1"))
+        itemCarousel(I1C1,switchtext("ConseilCarousel1Image1")),
+        itemCarousel(I1C1,switchtext("ConseilCarousel1Image1")),
+        itemCarousel(I1C1,switchtext("ConseilCarousel1Image1"))
     ]
     let listCarousel2 = [
-        itemCarousel(I1C2,switchtext("Carousel1")),
-        itemCarousel(I2C2,switchtext("Carousel1")),
-        itemCarousel(I3C2,switchtext("Carousel1")),
-        itemCarousel(I2C2,switchtext("Carousel1")),
-        itemCarousel(I1C2,switchtext("Carousel1")),
-        itemCarousel(I3C2,switchtext("Carousel1"))
+        itemCarousel(I1C2,switchtext("ConseilCarousel2Image1")),
+        itemCarousel(I2C2,switchtext("ConseilCarousel2Image2")),
+        itemCarousel(I3C2,switchtext("ConseilCarousel2Image3")),
+        itemCarousel(I2C2,switchtext("ConseilCarousel2Image1")),
+        itemCarousel(I1C2,switchtext("ConseilCarousel2Image2")),
+        itemCarousel(I3C2,switchtext("ConseilCarousel2Image3"))
     ]
     let listCarousel3 = [
-        itemCarousel(MQ,switchtext("Carousel1")),
-        itemCarousel(RT,switchtext("Carousel1")),
-        itemCarousel(NU,switchtext("Carousel1")),
-        itemCarousel(MQ,switchtext("Carousel1")),
-        itemCarousel(RT,switchtext("Carousel1")),
-        itemCarousel(NU,switchtext("Carousel1"))
+        itemCarousel(MQ),
+        itemCarousel(RT),
+        itemCarousel(NU),
+        itemCarousel(MQ),
+        itemCarousel(RT),
+        itemCarousel(NU)
     ]
     let listCarousel4 = [
-        itemCarousel(I1C4,switchtext("Carousel1")),
-        itemCarousel(I2C4,switchtext("Carousel1")),
-        itemCarousel(I3C4,switchtext("Carousel1")),
-        itemCarousel(I1C4,switchtext("Carousel1")),
-        itemCarousel(I2C4,switchtext("Carousel1")),
-        itemCarousel(I3C4,switchtext("Carousel1"))
+        itemCarousel(I1C4,switchtext("ConseilCarousel4Image1")),
+        itemCarousel(I2C4,switchtext("ConseilCarousel4Image2")),
+        itemCarousel(I3C4,switchtext("ConseilCarousel4Image3")),
+        itemCarousel(I1C4,switchtext("ConseilCarousel4Image1")),
+        itemCarousel(I2C4,switchtext("ConseilCarousel4Image2")),
+        itemCarousel(I3C4,switchtext("ConseilCarousel4Image3"))
     ]
     return (<>
 
