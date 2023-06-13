@@ -15,6 +15,7 @@ import Commu from './pages/Commu';
 import Diagnostic from './pages/Diagnostic';
 import { ToastContainer } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
+import Conseils from './pages/Conseils';
 function App() {
   // const text1 = "Son corps idéal : elle voudrait prendre soin de sa peau facilement, et trouver une rutine skin care qui correspond à son type de peau sans passer des mois à contacter un spécialiste.";
   
@@ -28,6 +29,7 @@ function App() {
           <Route path="/APropos" element={<QuiSommesNous />}></Route>
           <Route path="/Community" element={<Commu/>}></Route>
           <Route path='/Diagnostic' element={<Diagnostic/>}></Route>
+          <Route path='/Conseils' element={<Conseils/>}></Route>
         </Routes>
         <Newsletter />
         <Footer />

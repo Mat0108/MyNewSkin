@@ -44,7 +44,21 @@ const switchtext=(params)=>{
     case "Expertise2":
       return Expertise2();
     case "Expertise3":
-      return Expertise3()
+      return Expertise3();
+    case "ConseilCarousel1Image1":
+      return ConseilCarousel1Image1();
+    case "ConseilCarousel2Image1":
+      return ConseilCarousel2Image1();
+    case "ConseilCarousel2Image2":
+      return ConseilCarousel2Image2();
+    case "ConseilCarousel2Image3":
+      return ConseilCarousel2Image3();
+    case "ConseilCarousel4Image1":
+      return ConseilCarousel4Image1();
+    case "ConseilCarousel4Image2":
+      return ConseilCarousel4Image2();
+    case "ConseilCarousel4Image3":
+      return ConseilCarousel4Image3();
     default:
       break;
   }
@@ -244,4 +258,58 @@ const Expertise3 = ()=>{
    
   </>
 }
+
+// PAGES CONSEILS & ASTUCES
+
+//Carousel1
+const ConseilCarousel1Image1 = () =>{
+  return (<>
+  <p className="mt-[20px] text-[16px] font-av-bold text-blue">Vitamine C pour la peau : les bienfaits</p>    
+  <p className="text-[16px]">Quel nettoyant choisir ? Quel serum vous correspond ? </p>
+  <p className="text-[16px]">Comprenez et accepter la nature de votre peau grâce à nos conseils ciblés pour vous.</p>  
+  </>)
+}
+
+//Carousel2
+const ConseilCarousel2Image1 = () =>{
+  return (<>
+  <p className="mt-[20px] text-[16px] font-av-bold text-blue">Choisissez la bonne skincare</p>    
+  <p className="text-[16px]">Une bonne skincare permet à votre peau de rester hydrater et en bonne santé ...</p>  
+  </>)
+}
+const ConseilCarousel2Image2 = () =>{
+  return (<>
+  <p className="mt-[20px] text-[16px] font-av-bold text-blue">Prenez soin de vos cheveux</p>    
+  <p className="text-[16px]">On rêve tous de beaux cheveux mais il faut une bonne routine pour leur  santé ...</p>
+  </>)
+}
+const ConseilCarousel2Image3 = () =>{
+  return (<>
+  <p className="mt-[20px] text-[16px] font-av-bold text-blue">5 min maquillage idéale</p>    
+  <p className="text-[16px]">Une technique de maquillage  avec des produits adaptés n’affecte pas votre peau ...</p>
+  </>)
+}
+
+// Carousel 3
+
+//Carousel 4
+const ConseilCarousel4Image1 = () =>{
+  return (<>
+  <p className="mt-[20px] text-[16px] font-av-bold text-blue">Marie ROBERT</p>    
+  <p className="text-[16px]">Mon expérience avec Po. est la meilleure de ma vie. Une marque qui se soucie de votre peau, de votre bien être en vous donnant des conseils appropriés.</p>
+  </>)
+}
+const ConseilCarousel4Image2 = () =>{
+  return (<>
+  <p className="mt-[20px] text-[16px] font-av-bold text-blue">Dr Agathe AOUN</p>    
+  <p className="text-[16px]">Situé à Fort de France en Martinique, le Dr Agathe, dermathologue a voulu  apprendre les spécificités des peaux noires.</p>
+  </>)
+}
+const ConseilCarousel4Image3 = () =>{
+  return (<>
+  <p className="mt-[20px] text-[16px] font-av-bold text-blue">Augustinus Bader</p>    
+  <p className="text-[16px]">Interview d’un professeur qui révolutionne la skincare avec sa marque de cosmétiques adaptée pour les peaux</p>
+  </>)
+}
+// PAGES CONSEILS & ASTUCES
 export {switchtext}
