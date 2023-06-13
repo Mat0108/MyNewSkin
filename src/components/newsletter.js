@@ -29,9 +29,9 @@ const Newsletter =()=>{
     return (<>
 
         <div className="relative w-full h-[260px] grid grid-cols-5 bg-[#83C5BE]">
-            <div className="col-start-1 col-span-2 flex flex-col center ">
-                <p className="text-[30px]">NEWSLETTER</p>
-                <p className="w-[300px] ml-[30px]">Suivez notre actualité et ne manquez aucune de nos nouveautés en vous inscrivant à notre newsletter </p>
+            <div className="col-start-1 col-span-2 flex flex-col text-center my-auto ml-[40px]">
+                <p className="text-[30px] w-[300px]">NEWSLETTER</p>
+                <p className="w-[300px] ">Suivez notre actualité et ne manquez aucune de nos nouveautés en vous inscrivant à notre newsletter </p>
             </div>
             <div className="col-start-3 col-span-3 flex flex-col center ">
                 <p className="text-[30px] w-[300px]">Votre adresse mail:</p>

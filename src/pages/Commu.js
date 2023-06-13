@@ -26,11 +26,12 @@ import { useState } from "react";
 const Commu = ()=>{
     const [fil,setFil] = useState(true)
     function itemCarousel(image,titre){
-        return (<div className="relative w-[300px] h-[200px] rounded-2xl bg-white" key={`item-${titre}`}>
+        return (<div className="relative w-[250px] h-[200px] rounded-2xl bg-white" key={`item-${titre}`}>
             <img src={image} alt={titre} className="w-full h-full rounded-2xl"/>
             <div className="absolute bottom-0 w-full h-[30px] text-white text-lg bg-black opacity-50 rounded-b-2xl">
                 {titre}
             </div>
+
         </div>)
 
     }
@@ -57,10 +58,10 @@ const Commu = ()=>{
                     <img src={image} alt={image} className="w-full h-full rounded-l-[40px]"/>
                 </div>
                 <div className="w-[70%] h-full relative flex flex-col border-r-2 border-y-2 border-black rounded-r-[40px] p-8">
-                    <div className="w-full h-[60%] text-[24px] text-left">
+                    <div className="w-full h-[70%] text-[22px] text-left">
                         {text}
                     </div>
-                    <div className="w-full h-[20%] ">
+                    <div className="w-full h-[20%] mt-[5px]">
                         <p className="text-left text-[24px] ">Catégorie : {categorie}</p>
                     </div>
                     <div className="w-[250px] h-[40px] flex flex-row justify-between">
@@ -89,7 +90,7 @@ const Commu = ()=>{
                 <p className="text-[50px]">La communauté qui te ressemble</p>
                 <div className='w-full flex center mt-[60px]'><img src={v18} alt={"v18"} className="w-full"/></div>
                 <div className="w-full flex center ">{switchtext("Commu")}</div>
-                <div className="flex center mt-[60px]"><div className="text-[36px] w-fit px-8 py-4 bg-[#264C4D] rounded-full font-av-bold text-white text-left"><p>Rejoigner la communauté</p></div></div>
+                <div className="flex center mt-[60px]"><div className="text-[40px]  w-fit px-16 py-6 bg-[#264C4D] rounded-full font-av-bold text-white text-left"><p>Rejoigner la communauté</p></div></div>
                 <div className="flex flex-row center mt-[80px] mb-[80px] ">
 
                     <div className="w-[220px] h-[220px] bg-[#D9D9D9] rounded-l-3xl">
@@ -144,7 +145,7 @@ const Commu = ()=>{
                     </div>
                 </div>
                 <div className="h-[500px] overflow-hidden hover:overflow-auto ">
-                {explorerItem(v20,"",{love:25,comment:18,partage:10},"Acnès & soins")}
+                {explorerItem(v20,switchtext("Commu1"),{love:25,comment:18,partage:10},"Acnès & soins")}
 
                 {explorerItem(v19,"",{love:14,comment:38,partage:4},"Soins")}
 
