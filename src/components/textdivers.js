@@ -201,19 +201,19 @@ const Carousel3 = () =>{
 }
 
 const NotreHistoire = ()=>{
-  return <div>
-      <p className="text-[50px] font-av-bold text-left w-[700px]">Notre histoire</p>
-        <p className="text-[16px] text-justify w-[670px] mt-[40px]">Nos experts facialistes sont des professionnels hautement qualifiés et expérimentés dans le domaine des soins de la peau. Leur expertise repose sur une formation rigoureuse et une connaissance approfondie des techniques et des produits adaptés à chaque type de peau. </p>
-      <p className="text-[16px] text-justify w-[670px] mt-[10px]">Grâce à leur expérience pratique et à leur sensibilité aux besoins individuels, nos experts facialistes sont en mesure de proposer des soins personnalisés et efficaces pour améliorer la santé et l'apparence de votre peau. Leur passion pour les soins de la peau se reflète dans leur approche attentionnée et leur volonté de vous offrir une expérience de soin exceptionnelle.</p> 
-      <p className="text-[16px] text-justify w-[670px] mt-[10px]">Faites confiance à nos experts facialistes pour vous guider vers une peau saine, éclatante et radieuse.</p>
+  return <div className="w-[90%]">
+      <p className="text-[50px] font-av-bold text-left ">Notre histoire</p>
+        <p className="text-[16px] text-justify mt-[40px]">Nos experts facialistes sont des professionnels hautement qualifiés et expérimentés dans le domaine des soins de la peau. Leur expertise repose sur une formation rigoureuse et une connaissance approfondie des techniques et des produits adaptés à chaque type de peau. </p>
+      <p className="text-[16px] text-justify mt-[10px]">Grâce à leur expérience pratique et à leur sensibilité aux besoins individuels, nos experts facialistes sont en mesure de proposer des soins personnalisés et efficaces pour améliorer la santé et l'apparence de votre peau. Leur passion pour les soins de la peau se reflète dans leur approche attentionnée et leur volonté de vous offrir une expérience de soin exceptionnelle.</p> 
+      <p className="text-[16px] text-justify  mt-[10px]">Faites confiance à nos experts facialistes pour vous guider vers une peau saine, éclatante et radieuse.</p>
   </div>
 }
 const EcoleDelphine = ()=>{
-  return <div>
-      <p className="text-[40px] font-av-bold text-left w-[700px]">École Delphine Langlois - </p>
-      <p className="text-[40px] font-av-bold text-left w-[700px]">Facialiste Paris</p>
-      <p className="text-[16px] text-justify w-[670px] mt-[30px]">Nos experts en soins de la peau sont tous diplômés de l'École Delphine Langlois - Facialiste Paris, une référence dans le domaine de l'esthétique et des soins de la peau. Cette formation de renommée internationale garantit que nos clients bénéficient des compétences et des connaissances les plus pointues en matière de soins de la peau. </p>
-      <p className="text-[16px] text-justify w-[670px] mt-[10px]">En collaborant avec des experts formés par cette prestigieuse école, nous nous assurons de vous offrir des conseils et des traitements de qualité, adaptés à vos besoins spécifiques. Faites confiance à notre équipe d'experts qualifiés pour prendre soin de votre peau et vous offrir une expérience de soin exceptionnelle.</p>
+  return <div className="w-[80%]">
+      <p className="text-[40px] font-av-bold text-left ">École Delphine Langlois - </p>
+      <p className="text-[40px] font-av-bold text-left ">Facialiste Paris</p>
+      <p className="text-[16px] text-justify mt-[30px]">Nos experts en soins de la peau sont tous diplômés de l'École Delphine Langlois - Facialiste Paris, une référence dans le domaine de l'esthétique et des soins de la peau. Cette formation de renommée internationale garantit que nos clients bénéficient des compétences et des connaissances les plus pointues en matière de soins de la peau. </p>
+      <p className="text-[16px] text-justify mt-[10px]">En collaborant avec des experts formés par cette prestigieuse école, nous nous assurons de vous offrir des conseils et des traitements de qualité, adaptés à vos besoins spécifiques. Faites confiance à notre équipe d'experts qualifiés pour prendre soin de votre peau et vous offrir une expérience de soin exceptionnelle.</p>
       <div className="flex center"><div className="mt-[20px] text-[30px] w-fit px-8 py-4 bg-[#83C5BE] rounded-full font-av-bold text-blue text-left hover:text-white hover:bg-blue"><p>En savoir plus</p></div>
       </div>
   </div>
