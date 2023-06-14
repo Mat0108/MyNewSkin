@@ -209,7 +209,7 @@ const NotreHistoire = ()=>{
   </div>
 }
 const EcoleDelphine = ()=>{
-  return <div className="w-[80%]">
+  return <div className="w-[80%] ml-[30px]">
       <p className="text-[40px] font-av-bold text-left ">École Delphine Langlois - </p>
       <p className="text-[40px] font-av-bold text-left ">Facialiste Paris</p>
       <p className="text-[16px] text-justify mt-[30px]">Nos experts en soins de la peau sont tous diplômés de l'École Delphine Langlois - Facialiste Paris, une référence dans le domaine de l'esthétique et des soins de la peau. Cette formation de renommée internationale garantit que nos clients bénéficient des compétences et des connaissances les plus pointues en matière de soins de la peau. </p>
