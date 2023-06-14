@@ -7,7 +7,7 @@ const Footer = ()=>{
     <footer className="p-4 pb-10 bg-white_coffee flex w-full">
         <div className="w-[20%] flex flex-col center ">
             <div>
-                    <div className="mt-[20px]"> <img src={logobig} className="w-[70%]"/></div>
+                    <div className="mt-[20px]"> <img src={logobig} className="w-[65%]"/></div>
                     <p className="text-[14px] mt-[5px] text-left">Découvrez votre peau.</p>
    
             </div>  

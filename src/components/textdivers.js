@@ -203,17 +203,17 @@ const Carousel3 = () =>{
 const NotreHistoire = ()=>{
   return <div>
       <p className="text-[50px] font-av-bold text-left w-[700px]">Notre histoire</p>
-        <p className="text-[16px] text-left w-[700px] mt-[40px]">Nos experts facialistes sont des professionnels hautement qualifiés et expérimentés dans le domaine des soins de la peau. Leur expertise repose sur une formation rigoureuse et une connaissance approfondie des techniques et des produits adaptés à chaque type de peau. </p>
-      <p className="text-[16px] text-left w-[700px] mt-[10px]">Grâce à leur expérience pratique et à leur sensibilité aux besoins individuels, nos experts facialistes sont en mesure de proposer des soins personnalisés et efficaces pour améliorer la santé et l'apparence de votre peau. Leur passion pour les soins de la peau se reflète dans leur approche attentionnée et leur volonté de vous offrir une expérience de soin exceptionnelle.</p> 
-      <p className="text-[16px] text-left w-[700px] mt-[10px]">Faites confiance à nos experts facialistes pour vous guider vers une peau saine, éclatante et radieuse.</p>
+        <p className="text-[16px] text-justify w-[670px] mt-[40px]">Nos experts facialistes sont des professionnels hautement qualifiés et expérimentés dans le domaine des soins de la peau. Leur expertise repose sur une formation rigoureuse et une connaissance approfondie des techniques et des produits adaptés à chaque type de peau. </p>
+      <p className="text-[16px] text-justify w-[670px] mt-[10px]">Grâce à leur expérience pratique et à leur sensibilité aux besoins individuels, nos experts facialistes sont en mesure de proposer des soins personnalisés et efficaces pour améliorer la santé et l'apparence de votre peau. Leur passion pour les soins de la peau se reflète dans leur approche attentionnée et leur volonté de vous offrir une expérience de soin exceptionnelle.</p> 
+      <p className="text-[16px] text-justify w-[670px] mt-[10px]">Faites confiance à nos experts facialistes pour vous guider vers une peau saine, éclatante et radieuse.</p>
   </div>
 }
 const EcoleDelphine = ()=>{
   return <div>
       <p className="text-[40px] font-av-bold text-left w-[700px]">École Delphine Langlois - </p>
       <p className="text-[40px] font-av-bold text-left w-[700px]">Facialiste Paris</p>
-      <p className="text-[16px] text-left w-[700px] mt-[30px]">Nos experts en soins de la peau sont tous diplômés de l'École Delphine Langlois - Facialiste Paris, une référence dans le domaine de l'esthétique et des soins de la peau. Cette formation de renommée internationale garantit que nos clients bénéficient des compétences et des connaissances les plus pointues en matière de soins de la peau. </p>
-      <p className="text-[16px] text-left w-[700px] mt-[10px]">En collaborant avec des experts formés par cette prestigieuse école, nous nous assurons de vous offrir des conseils et des traitements de qualité, adaptés à vos besoins spécifiques. Faites confiance à notre équipe d'experts qualifiés pour prendre soin de votre peau et vous offrir une expérience de soin exceptionnelle.</p>
+      <p className="text-[16px] text-justify w-[670px] mt-[30px]">Nos experts en soins de la peau sont tous diplômés de l'École Delphine Langlois - Facialiste Paris, une référence dans le domaine de l'esthétique et des soins de la peau. Cette formation de renommée internationale garantit que nos clients bénéficient des compétences et des connaissances les plus pointues en matière de soins de la peau. </p>
+      <p className="text-[16px] text-justify w-[670px] mt-[10px]">En collaborant avec des experts formés par cette prestigieuse école, nous nous assurons de vous offrir des conseils et des traitements de qualité, adaptés à vos besoins spécifiques. Faites confiance à notre équipe d'experts qualifiés pour prendre soin de votre peau et vous offrir une expérience de soin exceptionnelle.</p>
       <div className="flex center"><div className="mt-[20px] text-[30px] w-fit px-8 py-4 bg-[#83C5BE] rounded-full font-av-bold text-blue text-left hover:text-white hover:bg-blue"><p>En savoir plus</p></div>
       </div>
   </div>
@@ -240,21 +240,21 @@ const Commu1 = ()=>{
 const Expertise1 = ()=>{
   return<>
    <p className="text-[30px] bg-[#264C4D] font-av-bold text-center text-white w-[390px] p-2">Personnalisé</p>
-   <p className="text-[16px] bg-[#264C4D] font-av-bold text-center text-white w-[390px] px-4 pb-6">Chez Po, nous comprenons que chaque peau est unique. C'est pourquoi nous vous offrons des recommandations personnalisées en fonction de votre type de peau, de vos préoccupations et de vos objectifs. Notre approche sur mesure vous permet d'obtenir les meilleurs résultats pour votre peau.</p>
+   <p className="text-[16px] bg-[#264C4D] font-av-bold text-center text-white w-[390px] px-4 pb-10">Chez Po, nous comprenons que chaque peau est unique. C'est pourquoi nous vous offrons des recommandations personnalisées en fonction de votre type de peau, de vos préoccupations et de vos objectifs. Notre approche sur mesure vous permet d'obtenir les meilleurs résultats pour votre peau.</p>
    
   </>
 }
 const Expertise2 = ()=>{
   return<>
    <p className="text-[30px] bg-[#264C4D] font-av-bold text-center text-white w-[390px] p-2">Accompagnement</p>
-   <p className="text-[16px] bg-[#264C4D] font-av-bold text-center text-white w-[390px] px-4 pb-6">Nous offrons un accompagnement personnalisé pour vous aider à retrouver une peau saine et éclatante. Notre équipe d'experts est là pour vous écouter, vous conseiller et vous soutenir tout au long de votre parcours de soins de la peau, afin que vous puissiez retrouver confiance en vous et vous sentir bien dans votre peau.</p>
+   <p className="text-[16px] bg-[#264C4D] font-av-bold text-center text-white w-[390px] px-4 pb-10">Nous offrons un accompagnement personnalisé pour vous aider à retrouver une peau saine et éclatante. Notre équipe d'experts est là pour vous écouter, vous conseiller et vous soutenir tout au long de votre parcours de soins de la peau, afin que vous puissiez retrouver confiance en vous et vous sentir bien dans votre peau.</p>
    
   </>
 }
 const Expertise3 = ()=>{
   return<>
    <p className="text-[30px] bg-[#264C4D] font-av-bold text-center text-white w-[390px] p-2">Suivi</p>
-   <p className="text-[16px] bg-[#264C4D] font-av-bold text-center text-white w-[390px] px-4 pb-6">Votre progression est importante pour nous. Nous restons en contact régulier avec vous pour suivre l'évolution de votre peau. Nous ajustons votre routine au besoin, vous offrons des conseils personnalisés et nous assurons que vous atteignez vos objectifs de beauté et de santé de la peau.</p>
+   <p className="text-[16px] bg-[#264C4D] font-av-bold text-center text-white w-[390px] px-4 pb-10">Votre progression est importante pour nous. Nous restons en contact régulier avec vous pour suivre l'évolution de votre peau. Nous ajustons votre routine au besoin, vous offrons des conseils personnalisés et nous assurons que vous atteignez vos objectifs de beauté et de santé de la peau.</p>
    
   </>
 }
