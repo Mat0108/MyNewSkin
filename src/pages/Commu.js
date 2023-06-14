@@ -22,28 +22,30 @@ import comment from "./../images/comment.png";
 
 import v20 from "./../images/visage/visage20.png";
 import Carousel2 from './../components/Layout/Carousel2';
+import C1 from "./../images/Commu/Commu1.png";
+import C2 from "./../images/Commu/Commu2.png";
+import C3 from "./../images/Commu/Commu3.png";
+import C4 from "./../images/Commu/Commu4.png";
 import { useState } from "react";
 const Commu = ()=>{
     const [fil,setFil] = useState(true)
     function itemCarousel(image,titre){
-        return (<div className="relative w-[250px] h-[200px] rounded-2xl bg-white" key={`item-${titre}`}>
+        return (<div className="relative w-[250px] h-[200px]" key={`item-${titre}`}>
             <img src={image} alt={titre} className="w-full h-full rounded-2xl"/>
-            <div className="absolute bottom-0 w-full h-[30px] text-white text-lg bg-black opacity-50 rounded-b-2xl">
-                {titre}
+            <div className="absolute top-0 left-0 h-full w-full flex center ">
+                <div className="h-fit w-[80%] mt-[30px] text-white text-[36px] font-av-bold">{titre}</div>
+
             </div>
 
         </div>)
 
     }
     let listCarousel = [
-        itemCarousel(v2,"Diagnostic"),
-        itemCarousel(v3,"Conseil"),
-        itemCarousel(v4,"Soin"),
-        itemCarousel(v8,"Produits"),
-        itemCarousel(v14,"Diagnostic"),
-        itemCarousel(v15,"Conseil"),
-        itemCarousel(v16,"Soin"),
-        itemCarousel(v7,"Produits"),
+        itemCarousel(C1,"Découvrez nos conseils"),
+        itemCarousel(C2,"Rencontrez nos experts"),
+        itemCarousel(C3,"Une communauté pour vous"),
+        itemCarousel(C4,"partager votre expérience"),
+
         
     ]
     function item(item){
@@ -53,16 +55,16 @@ const Commu = ()=>{
     }
     function explorerItem(image,text,value,categorie){
         return(
-            <div className="w-full h-[440px] mb-[20px] flex rounded-[40px] mt-[40px]">
+            <div className="w-full h-[480px] mb-[20px] flex rounded-[40px] mt-[40px]">
                 <div className="w-[30%] h-full">
                     <img src={image} alt={image} className="w-full h-full rounded-l-[40px]"/>
                 </div>
                 <div className="w-[70%] h-full relative flex flex-col border-r-2 border-y-2 border-black rounded-r-[40px] p-8">
-                    <div className="w-full h-[70%] text-[22px] text-left">
+                    <div className="w-full h-[75%] text-[18px] text-left">
                         {text}
                     </div>
-                    <div className="w-full h-[20%] mt-[5px]">
-                        <p className="text-left text-[24px] ">Catégorie : {categorie}</p>
+                    <div className="w-full h-[15%] mt-[5px]">
+                        <p className="text-left text-[18px] ">Catégorie : {categorie}</p>
                     </div>
                     <div className="w-[250px] h-[40px] flex flex-row justify-between">
                         <div className="flex flex-row">
@@ -109,16 +111,16 @@ const Commu = ()=>{
         </div>
         <Carousel2 props={{items:listCarousel,nbShow:4,ratio:10,showPoint:false}}/>
         <div className="w-[80%] mx-auto mt-[50px]">
-            <p className="text-[50px] text-left text-blue font-av-bold">Explorer</p>
+            <p className="text-[40px] text-left text-blue font-av-bold">Explorer</p>
             <div className="border-2 border-blue rounded-3xl w-full h-[62px] flex flex-row relative">
                 <div className="w-[10%] h-fit p-4 flex center relative">
                     <img src={search} alt={search} height={30} width={30}/>
                 </div>
                 <div className="w-[90%] h-fit flex relative items-center">
-                    <p className="text-black text-[30px]">Recherche dans la communauté</p>
+                    <p className="text-black text-[22px] mt-[10px]">Recherche dans la communauté</p>
                 </div>
             </div>
-            <div className="w-full h-full my-[30px] flex flex-row justify-between">
+            <div className="w-full h-full my-[30px] flex flex-row justify-between space-x-4 ">
                 {item("Diagnostic")}
                 {item("Conseil")}
                 {item("Soin")}
@@ -138,10 +140,10 @@ const Commu = ()=>{
         <div className="w-full h-[3px] bg-gray mb-[5px]"></div>
 
         <div className="w-full h-fit ">
-            <div className="w-[80%] mx-auto mt-[40px]">
+            <div className="w-[60%] mx-auto mt-[40px]">
                 <div className="border-2 border-blue rounded-full w-[740px] h-[62px] px-8 py-2 flex flex-row relative"> 
                     <div className="w-full h-fit flex relative">
-                        <p className="text-black text-[28px]"><span className="text-blue font-av-bold text-[29px]">Léa community manager :</span> à posté une photo</p>
+                        <p className="text-black text-[28px]"><span className="text-blue font-av-bold text-[29px] ">Léa community manager :</span> à posté une photo</p>
                     </div>
                 </div>
                 <div className="h-[500px] overflow-hidden hover:overflow-auto ">

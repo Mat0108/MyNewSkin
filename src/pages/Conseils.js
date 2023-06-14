@@ -27,41 +27,41 @@ const Conseils = () =>{
         return (<>
             <div className="relative w-full h-fit mt-[10px] flex center">
                 <div>
-                    <div className="mt-[20px] w-full flex center"> <img src={image}  alt="image"/></div>  
-                    {col}    
+                    <div className="mt-[20px] w-full flex center"> <img src={image.src}  alt={image.alt} className={image.className}/></div>  
+                    {col}
                 </div>
             </div>
             </>)
 
     }
     let listCarousel = [
-        itemCarousel(I1C1,switchtext("ConseilCarousel1Image1")),
-        itemCarousel(I1C1,switchtext("ConseilCarousel1Image1")),
-        itemCarousel(I1C1,switchtext("ConseilCarousel1Image1"))
+        itemCarousel({src:I1C1,alt:"E1C1"},switchtext("ConseilCarousel1Image1")),
+        itemCarousel({src:I1C1,alt:"I1C1"},switchtext("ConseilCarousel1Image1")),
+        itemCarousel({src:I1C1,alt:"I1C1"},switchtext("ConseilCarousel1Image1"))
     ]
     let listCarousel2 = [
-        itemCarousel(I1C2,switchtext("ConseilCarousel2Image1")),
-        itemCarousel(I2C2,switchtext("ConseilCarousel2Image2")),
-        itemCarousel(I3C2,switchtext("ConseilCarousel2Image3")),
-        itemCarousel(I2C2,switchtext("ConseilCarousel2Image1")),
-        itemCarousel(I1C2,switchtext("ConseilCarousel2Image2")),
-        itemCarousel(I3C2,switchtext("ConseilCarousel2Image3"))
+        itemCarousel({src:I1C2,alt:"I1C2"},switchtext("ConseilCarousel2Image1")),
+        itemCarousel({src:I2C2,alt:"I2C2"},switchtext("ConseilCarousel2Image2")),
+        itemCarousel({src:I3C2,alt:"I3C2"},switchtext("ConseilCarousel2Image3")),
+        itemCarousel({src:I2C2,alt:"I2C2"},switchtext("ConseilCarousel2Image1")),
+        itemCarousel({src:I1C2,alt:"I1C2"},switchtext("ConseilCarousel2Image2")),
+        itemCarousel({src:I3C2,alt:"I3C2"},switchtext("ConseilCarousel2Image3"))
     ]
     let listCarousel3 = [
-        itemCarousel(MQ),
-        itemCarousel(RT),
-        itemCarousel(NU),
-        itemCarousel(MQ),
-        itemCarousel(RT),
-        itemCarousel(NU)
+        itemCarousel({src:MQ,alt:"MQ"}),
+        itemCarousel({src:RT,alt:"RT"}),
+        itemCarousel({src:NU,alt:"NU"}),
+        itemCarousel({src:MQ,alt:"MQ"}),
+        itemCarousel({src:RT,alt:"RT"}),
+        itemCarousel({src:NU,alt:"NU"})
     ]
     let listCarousel4 = [
-        itemCarousel(I1C4,switchtext("ConseilCarousel4Image1")),
-        itemCarousel(I2C4,switchtext("ConseilCarousel4Image2")),
-        itemCarousel(I3C4,switchtext("ConseilCarousel4Image3")),
-        itemCarousel(I1C4,switchtext("ConseilCarousel4Image1")),
-        itemCarousel(I2C4,switchtext("ConseilCarousel4Image2")),
-        itemCarousel(I3C4,switchtext("ConseilCarousel4Image3"))
+        itemCarousel({src:I1C4,alt:"I1C4",className:"w-[70%]"},switchtext("ConseilCarousel4Image1")),
+        itemCarousel({src:I2C4,alt:"I2C4",className:"w-[70%]"},switchtext("ConseilCarousel4Image2")),
+        itemCarousel({src:I3C4,alt:"I3C4",className:"w-[70%]"},switchtext("ConseilCarousel4Image3")),
+        itemCarousel({src:I1C4,alt:"I1C4",className:"w-[70%]"},switchtext("ConseilCarousel4Image1")),
+        itemCarousel({src:I2C4,alt:"I2C4",className:"w-[70%]"},switchtext("ConseilCarousel4Image2")),
+        itemCarousel({src:I3C4,alt:"I3C4",className:"w-[70%]"},switchtext("ConseilCarousel4Image3"))
     ]
     return (<>
 
@@ -73,18 +73,18 @@ const Conseils = () =>{
     <div className="relative w-full h-0.5 mt-[100px] mb-[100px] bg-[#10264C4D]"></div>
 
     <div className="w-full text-left text-[50px] mt-[20px] ml-[155px] font-av-bold text-blue">Les derniers tutos...</div>
-    <Carousel2 props={{items:listCarousel2,nbShow:3,ratio:10,showPoint:true}}/>
+    <Carousel2 props={{items:listCarousel2,nbShow:3,ratio:10,showPoint:false,disableClic:true}}/>
 
     <div className="relative w-full h-0.5 mt-[100px] mb-[100px] bg-[#10264C4D]"></div>
 
     <div className="w-full text-left text-[50px] mt-[20px] ml-[165px] font-av-bold text-blue">Catégories</div>
-    <Carousel2 props={{items:listCarousel3,nbShow:3,ratio:10,showPoint:true}}/>
+    <Carousel2 props={{items:listCarousel3,nbShow:3,ratio:10,showPoint:false,disableClic:true}}/>
 
     <div className="relative w-full h-0.5 mt-[100px] mb-[100px] bg-[#10264C4D]"></div>
 
     <div className="w-full text-left text-[50px] mt-[20px] ml-[155px] font-av-bold text-blue">Interviews</div>
     <div className="w-full text-left text-[30px] ml-[155px] text-blue">Des personnes inspirants et qui vous ressemblent</div>
-    <Carousel2 props={{items:listCarousel4,nbShow:3,ratio:10,showPoint:true}}/>
+    <Carousel2 props={{items:listCarousel4,nbShow:3,ratio:10,showPoint:false,disableClic:true}}/>
     <div className="w-full h-[20px]"></div>
     </>)
 }

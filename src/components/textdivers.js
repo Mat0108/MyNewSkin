@@ -232,31 +232,31 @@ const Commu1 = ()=>{
   <div className="font-av-bold text-[28px]">
     Gagnez de la confiance en soi malgré votre acné
   </div>
-  <div className="text-[26px] mt-[10px]">
+  <div className="text-[22px] mt-[10px]">
     Votre beauté ne se résume pas à votre peau. L'acné peut être un défi, mais vous êtes bien plus que cela. Apprenez à vous aimer et à embrasser votre individualité. La confiance en soi ne dépend pas de votre apparence, mais de la façon dont vous vous percevez et vous affirmez. 
   </div>
   </>
 }
 const Expertise1 = ()=>{
-  return<>
-   <p className="text-[30px] bg-[#264C4D] font-av-bold text-center text-white w-[390px] p-2">Personnalisé</p>
-   <p className="text-[16px] bg-[#264C4D] font-av-bold text-center text-white w-[390px] px-4 pb-10">Chez Po, nous comprenons que chaque peau est unique. C'est pourquoi nous vous offrons des recommandations personnalisées en fonction de votre type de peau, de vos préoccupations et de vos objectifs. Notre approche sur mesure vous permet d'obtenir les meilleurs résultats pour votre peau.</p>
+  return<div className="w-full flex flex-col center">
+   <p className="text-[30px] bg-[#264C4D] font-av-bold text-center text-white w-[312px] p-2">Personnalisé</p>
+   <p className="text-[16px] bg-[#264C4D] font-av-bold text-justify  text-white w-[312px] h-[280px] px-4 pb-10">Chez Po, nous comprenons que chaque peau est unique. C'est pourquoi nous vous offrons des recommandations personnalisées en fonction de votre type de peau, de vos préoccupations et de vos objectifs. Notre approche sur mesure vous permet d'obtenir les meilleurs résultats pour votre peau.</p>
    
-  </>
+  </div>
 }
 const Expertise2 = ()=>{
-  return<>
-   <p className="text-[30px] bg-[#264C4D] font-av-bold text-center text-white w-[390px] p-2">Accompagnement</p>
-   <p className="text-[16px] bg-[#264C4D] font-av-bold text-center text-white w-[390px] px-4 pb-10">Nous offrons un accompagnement personnalisé pour vous aider à retrouver une peau saine et éclatante. Notre équipe d'experts est là pour vous écouter, vous conseiller et vous soutenir tout au long de votre parcours de soins de la peau, afin que vous puissiez retrouver confiance en vous et vous sentir bien dans votre peau.</p>
+  return<div className="w-full flex flex-col center">
+   <p className="text-[30px] bg-[#264C4D] font-av-bold text-center text-white w-[312px] p-2">Accompagnement</p>
+   <p className="text-[16px] bg-[#264C4D] font-av-bold text-justify  text-white w-[312px] h-[280px] px-4 pb-10">Nous offrons un accompagnement personnalisé pour vous aider à retrouver une peau saine et éclatante. Notre équipe d'experts est là pour vous écouter, vous conseiller et vous soutenir tout au long de votre parcours de soins de la peau, afin que vous puissiez retrouver confiance en vous et vous sentir bien dans votre peau.</p>
    
-  </>
+  </div>
 }
 const Expertise3 = ()=>{
-  return<>
-   <p className="text-[30px] bg-[#264C4D] font-av-bold text-center text-white w-[390px] p-2">Suivi</p>
-   <p className="text-[16px] bg-[#264C4D] font-av-bold text-center text-white w-[390px] px-4 pb-10">Votre progression est importante pour nous. Nous restons en contact régulier avec vous pour suivre l'évolution de votre peau. Nous ajustons votre routine au besoin, vous offrons des conseils personnalisés et nous assurons que vous atteignez vos objectifs de beauté et de santé de la peau.</p>
+  return<div className="w-full flex flex-col center">
+   <p className="text-[30px] bg-[#264C4D] font-av-bold text-center text-white w-[312px] p-2">Suivi</p>
+   <p className="text-[16px] bg-[#264C4D] font-av-bold text-justify  text-white w-[312px] h-[280px] px-4 pb-10">Votre progression est importante pour nous. Nous restons en contact régulier avec vous pour suivre l'évolution de votre peau. Nous ajustons votre routine au besoin, vous offrons des conseils personnalisés et nous assurons que vous atteignez vos objectifs de beauté et de santé de la peau.</p>
    
-  </>
+  </div>
 }
 
 // PAGES CONSEILS & ASTUCES
@@ -294,22 +294,28 @@ const ConseilCarousel2Image3 = () =>{
 
 //Carousel 4
 const ConseilCarousel4Image1 = () =>{
-  return (<>
-  <p className="mt-[20px] text-[25px] font-av-bold text-blue">Marie ROBERT</p>    
-  <p className="text-[16px]">Mon expérience avec Po. est la meilleure de ma vie. Une marque qui se soucie de votre peau, de votre bien être en vous donnant des conseils appropriés.</p>
-  </>)
+  return (<div className="w-full flex center">
+    <div className="w-[70%]">  
+      <p className="mt-[20px] text-[25px] font-av-bold text-blue">Marie ROBERT</p>    
+      <p className="text-[16px]">Mon expérience avec Po. est la meilleure de ma vie. Une marque qui se soucie de votre peau, de votre bien être en vous donnant des conseils appropriés.</p>
+    </div>
+  </div>)
 }
 const ConseilCarousel4Image2 = () =>{
-  return (<>
-  <p className="mt-[20px] text-[25px] font-av-bold text-blue">Dr Agathe AOUN</p>    
-  <p className="text-[16px]">Situé à Fort de France en Martinique, le Dr Agathe, dermathologue a voulu  apprendre les spécificités des peaux noires.</p>
-  </>)
+  return (<div className="w-full flex center">
+  <div className="w-[70%]">
+      <p className="mt-[20px] text-[25px] font-av-bold text-blue">Dr Agathe AOUN</p>    
+      <p className="text-[16px]">Situé à Fort de France en Martinique, le Dr Agathe, dermathologue a voulu  apprendre les spécificités des peaux noires.</p>
+    </div>
+  </div>)
 }
 const ConseilCarousel4Image3 = () =>{
-  return (<>
-  <p className="mt-[20px] text-[25px] font-av-bold text-blue">Augustinus Bader</p>    
-  <p className="text-[16px]">Interview d’un professeur qui révolutionne la skincare avec sa marque de cosmétiques adaptée pour les peaux</p>
-  </>)
+  return (<div className="w-full flex center">
+  <div className="w-[70%]">
+    <p className="mt-[20px] text-[25px] font-av-bold text-blue">Augustinus Bader</p>    
+    <p className="text-[16px]">Interview d’un professeur qui révolutionne la skincare avec sa marque de cosmétiques adaptée pour les peaux</p>
+    </div>
+  </div>)
 }
 // PAGES CONSEILS & ASTUCES
 export {switchtext}

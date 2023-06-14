@@ -29,14 +29,13 @@ const Carousel2 =({props})=>{
         <div className="w-full flex flex-col">       
             <div className="flex flex-row w-full">
                 <div className={`${getW(ratio)} flex center`}>
-                    <p className="text-5xl" onClick={()=>setShow(show == 0 ? Object.keys(props.items).length-1 :show-1)}>{"<"}</p>
+                {!props.disableClic && <p className="text-5xl" onClick={()=>setShow(show == 0 ? Object.keys(props.items).length-1 :show-1)}>{"<"}</p>}
                 </div>
-                <div className={`flex flex-row ${getW(100-2*ratio)}  h-full ${props.nbShow == 1 ? "center":"justify-between"}`}>
-                    
+                <div className={`flex flex-row ${getW(100-2*ratio)}  h-full ${props.nbShow == 1 ? "center":"justify-between space-x-4"}`}>
                     {items}
                 </div>
                 <div className={`${getW(ratio)} flex center`}>
-                    <p className="text-5xl" onClick={()=>setShow(show>=Object.keys(props.items).length-1 ? 0:show+1)}>{">"}</p>
+                    {!props.disableClic &&<p className="text-5xl" onClick={()=>setShow(show>=Object.keys(props.items).length-1 ? 0:show+1)}>{">"}</p>}
                 </div>
 
             </div>
