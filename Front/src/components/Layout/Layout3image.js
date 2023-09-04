@@ -12,13 +12,13 @@ const Layout3image =({props})=>{
                 </div>
                 <div className="col-start-2 flex justify-center">
                     <div className="flex flex-col ">
-                        <div className="mt-[60px] flex center"> <img src={props.image2.url} alt={props.image2.alt} className={props.image1.className}/></div>        
+                        <div className="mt-[60px] flex center"> <img src={props.image2.url} alt={props.image2.alt} className={props.image2.className}/></div>        
                         {props.col2}
                     </div>
                 </div>
                 <div className="col-start-3 flex justify-center">
-                    <div className="flex flex-col ">
-                        <div className="mt-[60px] flex center"> <img src={props.image3.url} alt={props.image3.alt} className={props.image1.className}/></div>        
+                    <div className="flex flex-col  ">
+                        <div className="mt-[60px] flex center"> <img src={props.image3.url} alt={props.image3.alt} className={props.image3.className}/></div>        
                         {props.col3}
                     </div>
                 </div>

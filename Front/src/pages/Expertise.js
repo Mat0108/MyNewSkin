@@ -19,13 +19,13 @@ const Expertise = ()=>{
         <Layout1image props={{col1:switchtext("NotreHistoire"),image1:{url:v14,alt:"visage14"}}} />
         <ExpertiseHome/>
         <Layout1imageinv props={{col1:switchtext("EcoleDelphine"),image1:{url:v15,alt:"visage15"}}}/>
-        <Layout1image props={{col1:switchtext("NotreHistoire"),image1:{url:v16,alt:"visage16"}}} />
+        <Layout1image props={{col1:switchtext("ExpertisePassion"),image1:{url:v16,alt:"visage16"}}} />
         <div className="relative w-full h-0.5 mt-[60px] bg-[#10264C4D]"></div>
-        <Layout3image props={{col1:switchtext("Expertise1"),image1:{url:v26,alt:"visage26"},col2:switchtext("Expertise2"),image2:{url:v27,alt:"visage27"},col3:switchtext("Expertise3"),image3:{url:v28,alt:"visage28"}}}/>
+        <Layout3image props={{col1:switchtext("Expertise1"),image1:{url:v26,alt:"visage26",className:"w-[80%] bg-[#264C4D]"},col2:switchtext("Expertise2"),image2:{url:v27,alt:"visage27",className:"w-[80%] bg-[#264C4D]"},col3:switchtext("Expertise3"),image3:{url:v28,alt:"visage28",className:"w-[80%] bg-[#264C4D]"}}}/>
         <div className="w-full flex flex-row my-[60px]">
-            <div className="relative w-[30%] h-0.5 mt-[60px] bg-[#10264C4D]"></div>
-            <div className="w-[40%] text-[64px] font-av-bold ">Faites nous confiance</div>
-            <div className="relative w-[30%] h-0.5 mt-[60px] bg-[#10264C4D]"></div>
+            <div className="relative w-[20%] h-0.5 mt-[60px] bg-[#10264C4D]"></div>
+            <div className="w-[60%] text-[64px] font-av-bold ">Faites nous confiance</div>
+            <div className="relative w-[20%] h-0.5 mt-[60px] bg-[#10264C4D]"></div>
         </div>
         </>
     )

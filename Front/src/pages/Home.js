@@ -38,8 +38,8 @@ const Home = ()=>{
         itemCarousel(visage23,"Carousel3")
     ]
 
-    return (<div className='bg-[#EEE8E4]'>
-        <LayoutFullImage props={{titre:"DECOUVREZ VOTRE PEAU",button:<div className="absolute z-[1000] top-[550px] w-full h-fit p-2 text-white_coffee text-[40px] flex center"><a className="w-fit py-2 px-6 bg-blue rounded-3xl" >Et révélez votre beauté naturelle</a> </div>,image1:{url:fullvisage,alt:"fullvisage"}}}/>
+    return (<>
+            <LayoutFullImage props={{titre:"DECOUVREZ VOTRE PEAU",button:<div className="absolute z-[1000] top-0 left-0 w-full h-full flex center"><div className='mt-[20%] w-fit h-fit p-2 text-white_coffee text-[40px] flex center'><a className="w-fit py-2 px-6 bg-blue rounded-3xl" >Et révélez votre beauté naturelle</a></div></div>,image1:{url:fullvisage,alt:"fullvisage"}}}/>
         <Layout1image props={{col1:switchtext("presentation"),image1:{url:visage2,alt:"visage2"}}} />
         <Layout2image props={{col1:switchtext("apropos"),col2:switchtext("apropos2"),image1:{url:visage7,alt:"visage7"},image2:{url:visage8,alt:"visage8"}}} />
         <div className='w-full flex center'>
@@ -53,7 +53,7 @@ const Home = ()=>{
         <div className='mt-[20px]'></div>
         {/* <Carousel props={{titre:"Nos conseils...",col:switchtext("Carousel1")}} /> */}
         <ExpertiseHome />
-       </div>)
+       </>)
 }
 
 export default Home

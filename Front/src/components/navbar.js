@@ -32,9 +32,9 @@ const Navbar = () =>{
     },[conseilbool])
     const expertise = useMemo(()=>{
         if(expertisebool){
-            return <div><a  ><div className={`flex flex-row w-[130px] ${cmhover}`}><div className='flex center w-fit mr-[10px]'><img src={pointwhite} alt={"pw"} /></div><div> Conseils</div></div></a></div>
+            return <div><a href={"/Conseils"} ><div className={`flex flex-row w-[130px] ${cmhover}`}><div className='flex center w-fit mr-[10px]'><img src={pointwhite} alt={"pw"} /></div><div> Conseils</div></div></a></div>
         }else{
-            return <div><a  ><div className={`flex flex-row w-[130px] ${cmhover}`}><div className='flex center w-fit mr-[10px] bg-[#EEE8E4]'><img src={pointhidden} alt={"pw"}/></div><div> Conseils</div></div></a></div>
+            return <div><a href={"/Conseils"} ><div className={`flex flex-row w-[130px] ${cmhover}`}><div className='flex center w-fit mr-[10px] bg-[#EEE8E4]'><img src={pointhidden} alt={"pw"}/></div><div> Conseils</div></div></a></div>
         }
     },[expertisebool])
     const community = useMemo(()=>{
@@ -53,16 +53,13 @@ const Navbar = () =>{
             <div className='w-full flex flex-row text-lg space-x-2 mr-[100px] center justify-end '>
                 <div onMouseEnter={()=>{setAproposbool(true)}}
                 onMouseLeave={()=>{setAproposbool(false)}}>{apropos}</div>
-                {/* <a href="/Diagnostic">Diagnotic</a> */}
                 <div onMouseEnter={()=>{setConseilbool(true)}}
                 onMouseLeave={()=>{setConseilbool(false)}}>{conseil}</div>
                 <div onMouseEnter={()=>{setExpertisebool(true)}}
                 onMouseLeave={()=>{setExpertisebool(false)}}>{expertise}</div>
                 <div onMouseEnter={()=>{setCommunitybool(true)}}
                 onMouseLeave={()=>{setCommunitybool(false)}}>{community}</div>
-                {/* <div>Soins</div>
-                <div>Produits</div>
-                <div>Connexion</div> */}
+
             </div>
         </div>
     </div>
