@@ -59,6 +59,8 @@ const switchtext=(params)=>{
       return ConseilCarousel4Image2();
     case "ConseilCarousel4Image3":
       return ConseilCarousel4Image3();
+    case "ExpertisePassion":
+      return ExpertisePassion();
     default:
       break;
   }
@@ -141,19 +143,19 @@ const produitcol3 = () =>{
 
 
 const quisommesnous = () =>{
-  return (<div className="">
-    <p className="text-[50px] font-av-bold text-blue text-left w-[50%]">Notre histoire</p>
+  return (<>
+    
+    <p className="text-[50px] font-av-bold text-blue text-left w-[50%] mt-[4%] ">Notre histoire</p>
     <p className="text-[50px] font-av-bold text-blue text-left w-[50%]">et votre histoire</p>
     <div className="w-[85%] h-full text-left text-[16px]">
-    <p className="mt-[20px]">Chez Po, nous mettons tout en œuvre pour vous offrir une expérience de soin de peau exceptionnelle. Notre équipe dévouée d'experts en skincare est là pour vous accompagner à chaque étape de votre parcours. Que vous cherchiez à résoudre des problèmes de peau spécifiques, à améliorer votre routine existante ou à découvrir de nouveaux produits, nous sommes là pour vous guider.</p>
-    <p className="mt-[20px]">Grâce à notre expertise et à notre passion pour la peau, nous vous proposons des conseils personnalisés, des recommandations de produits adaptés à votre type de peau et des informations de qualité basées sur des recherches scientifiques. Nous croyons en l'importance de la transparence et de l'éducation, c'est pourquoi nous partageons des ressources utiles et des guides d'achat détaillés pour vous aider à prendre des décisions éclairées.</p>
-    <p className="mt-[20px]">En nous rejoignant, vous bénéficierez également de l'accès à notre communauté d'experts facialistes et d'autres passionnés de skincare. Vous pourrez échanger des conseils, partager votre expérience et trouver du soutien tout au long de votre parcours de soin de peau.</p> 
-    <p className="mt-[20px]">Chez Po, nous sommes là pour vous aider à atteindre une peau saine, équilibrée et rayonnante.</p>
- 
+      <p className="mt-[20px]">Chez Po, nous mettons tout en œuvre pour vous offrir une expérience de soin de peau exceptionnelle. Notre équipe dévouée d'experts en skincare est là pour vous accompagner à chaque étape de votre parcours. Que vous cherchiez à résoudre des problèmes de peau spécifiques, à améliorer votre routine existante ou à découvrir de nouveaux produits, nous sommes là pour vous guider.</p>
+      <p className="mt-[20px]">Grâce à notre expertise et à notre passion pour la peau, nous vous proposons des conseils personnalisés, des recommandations de produits adaptés à votre type de peau et des informations de qualité basées sur des recherches scientifiques. Nous croyons en l'importance de la transparence et de l'éducation, c'est pourquoi nous partageons des ressources utiles et des guides d'achat détaillés pour vous aider à prendre des décisions éclairées.</p>
+      <p className="mt-[20px]">En nous rejoignant, vous bénéficierez également de l'accès à notre communauté d'experts facialistes et d'autres passionnés de skincare. Vous pourrez échanger des conseils, partager votre expérience et trouver du soutien tout au long de votre parcours de soin de peau.</p> 
+      <p className="mt-[20px]">Chez Po, nous sommes là pour vous aider à atteindre une peau saine, équilibrée et rayonnante.</p>
+    </div>
+  <div className="absolute bottom-0 left-0 w-full"><div className="w-[70%]  flex center"><div className="ml-[10px] text-[30px] w-fit px-6 py-2 bg-[#83C5BE] rounded-full font-av-bold text-[#264C4D] text-left hover:text-white hover:bg-blue"><p>En savoir plus</p></div></div>   
   </div>
-  <div className="w-[70%] mt-[20px] flex center"><div className="ml-[10px] text-[30px] w-fit px-6 py-2 bg-[#83C5BE] rounded-full font-av-bold text-[#264C4D] text-left hover:text-white hover:bg-blue"><p>En savoir plus</p></div></div>   
-      
-  </div>)
+  </>)
 }
 const quisommesnous2 = () =>{
   return (<>
@@ -202,8 +204,14 @@ const Carousel3 = () =>{
 
 const NotreHistoire = ()=>{
   return <div className="w-[90%]">
-      <p className="text-[50px] font-av-bold text-left ">Notre histoire</p>
-        <p className="text-[16px] text-justify mt-[40px]">Nos experts facialistes sont des professionnels hautement qualifiés et expérimentés dans le domaine des soins de la peau. Leur expertise repose sur une formation rigoureuse et une connaissance approfondie des techniques et des produits adaptés à chaque type de peau. </p>
+      <p className="text-[50px] font-av-bold text-left ">Nos experts</p>
+      <p className="text-[16px] text-justify mt-[50px]">Plongez dans l'univers de nos experts facialistes passionnés, dévoués à l'amélioration de votre peau. Leur expertise approfondie et leur savoir-faire leur permettent de vous offrir des soins personnalisés, adaptés à vos besoins spécifiques. Grâce à une combinaison de techniques avancées et de produits de qualité, nos facialistes travailleront avec vous pour révéler l'éclat naturel de votre peau. Que vous recherchiez une hydratation intense, une réduction des rides ou une solution pour les problèmes de peau spécifiques, nos experts sauront vous guider avec professionnalisme et attention. En plus de leur expertise technique, nos facialistes créent un environnement chaleureux et accueillant pour vous offrir une expérience de soin relaxante et revitalisante. Faites confiance à nos experts facialistes pour vous accompagner dans votre voyage vers une peau saine, radieuse et épanouie.</p>
+      </div>
+}
+const ExpertisePassion = ()=>{
+return <div className="w-[90%]">
+      <p className="text-[50px] font-av-bold text-left ">Une expertise, une passion</p>
+      <p className="text-[16px] text-justify mt-[40px]">Nos experts facialistes sont des professionnels hautement qualifiés et expérimentés dans le domaine des soins de la peau. Leur expertise repose sur une formation rigoureuse et une connaissance approfondie des techniques et des produits adaptés à chaque type de peau. </p>
       <p className="text-[16px] text-justify mt-[10px]">Grâce à leur expérience pratique et à leur sensibilité aux besoins individuels, nos experts facialistes sont en mesure de proposer des soins personnalisés et efficaces pour améliorer la santé et l'apparence de votre peau. Leur passion pour les soins de la peau se reflète dans leur approche attentionnée et leur volonté de vous offrir une expérience de soin exceptionnelle.</p> 
       <p className="text-[16px] text-justify  mt-[10px]">Faites confiance à nos experts facialistes pour vous guider vers une peau saine, éclatante et radieuse.</p>
   </div>

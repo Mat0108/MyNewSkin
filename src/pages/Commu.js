@@ -146,10 +146,9 @@ const Commu = ()=>{
                         <p className="text-black text-[28px]"><span className="text-blue font-av-bold text-[29px] ">Léa community manager :</span> à posté une photo</p>
                     </div>
                 </div>
-                <div className="h-[500px] overflow-hidden hover:overflow-auto ">
+                <div className="h-[520px] overflow-hidden hover:overflow-auto mb-[20px]">
                 {explorerItem(v20,switchtext("Commu1"),{love:25,comment:18,partage:10},"Acnès & soins")}
-
-                {explorerItem(v19,"",{love:14,comment:38,partage:4},"Soins")}
+                {/* {explorerItem(v19,"",{love:14,comment:38,partage:4},"Soins")} */}
 
                 </div>
             </div>

@@ -1,7 +1,7 @@
 const Layout1image =({props})=>{
     return (
         <div className="relative w-full h-fit grid grid-cols-2 my-[30px] ">
-            -<div className="col-start-1 w flex center justify-start">
+            <div className="col-start-1 w flex center justify-start">
                 <div className="flex flex-col relative w-full">
                     <div className="mx-auto relative w-[80%] ">{props.col1}</div>
                 </div>

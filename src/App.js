@@ -17,10 +17,8 @@ import { ToastContainer } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
 import Conseils from './pages/Conseils';
 function App() {
-  // const text1 = "Son corps idéal : elle voudrait prendre soin de sa peau facilement, et trouver une rutine skin care qui correspond à son type de peau sans passer des mois à contacter un spécialiste.";
-  
   return (
-    <div className="App w-full h-full relative bg-[#DEE4E4]">
+    <div className="App w-full h-full relative bg-[#EEE8E4]">
       <Router>
         <Navbar />
         <Routes>
