@@ -1,5 +1,5 @@
 {
-  "name": "server_po",
+  "name": "projettimer",
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
@@ -11,12 +11,12 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Mat0108/MyNewSkin-Front.git"
+    "url": "git+https://github.com/Mat0108/MyNewSkin-back.git"
   },
   "bugs": {
-    "url": "https://github.com/Mat0108/MyNewSkin-Front/issues"
+    "url": "https://github.com/Mat0108/MyNewSkin-back/issues"
   },
-  "homepage": "https://github.com/Mat0108/MyNewSkin-Front/Server/#readme",
+  "homepage": "https://github.com/Mat0108/MyNewSkin-back#readme",
   "description": "",
   "dependencies": {
     "axios": "^1.2.1",
